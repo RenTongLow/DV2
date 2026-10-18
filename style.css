@@ -1,0 +1,356 @@
+/* ==========================================================
+   Running & Fitness in Australia — FIT3179 DV2
+   Base design system + hero, sticky nav, numbered sections,
+   key-finding callouts, sources, scroll reveal.
+   ========================================================== */
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- HEADER / HERO ---------- */
+.header {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 3.8em 2em;
+    text-align: center;
+}
+
+.header.hero {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-kicker {
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #93c5fd;
+    margin-bottom: 0.6em;
+}
+
+.header h1 {
+    margin: 0 0 0.15em 0;
+    font-size: 2.6em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.header h2 {
+    margin: 0 0 0.4em 0;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.header p {
+    font-size: 0.92em;
+    color: #cbd5e1;
+    max-width: 700px;
+    margin: 0 auto 1em auto;
+    line-height: 1.45;
+}
+
+.header-badges {
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f8fafc;
+    padding: 0.3em 0.8em;
+    border-radius: 20px;
+    font-size: 0.78em;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hero-cta {
+    display: inline-block;
+    margin-top: 1.2em;
+    padding: 0.6em 1.4em;
+    font-size: 0.9em;
+    background: #ffffff;
+    color: #1e3a8a;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- STICKY NAV ---------- */
+.story-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #cbd5e1;
+    display: flex;
+    justify-content: center;
+    gap: 0.4em;
+    flex-wrap: wrap;
+    padding: 0.6em 1em;
+}
+
+.story-nav a {
+    color: #475569;
+    text-decoration: none;
+    font-size: 0.88em;
+    font-weight: 500;
+    padding: 0.4em 0.9em;
+    border-radius: 20px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.story-nav a:hover,
+.story-nav a.active {
+    background: #1e3a8a;
+    color: #ffffff;
+}
+
+/* ---------- LAYOUT ---------- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.section-wrapper {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    padding: 2.5em 2em;
+    margin-bottom: 3em;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    scroll-margin-top: 70px;
+}
+
+.section-tag {
+    display: inline-block;
+    background-color: #e2e8f0;
+    color: #0f172a;
+    padding: 0.35em 1em;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+.section-main-title {
+    margin: 0 0 0.4em 0;
+    color: #0f172a;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.section-main-desc {
+    font-size: 1.05em;
+    color: #64748b;
+    margin-top: 0;
+    margin-bottom: 2em;
+    line-height: 1.5;
+}
+
+.vis-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.vis-col {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* ---------- VIS CARD ---------- */
+.vis-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    padding: 1.8em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vis-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px -3px rgba(0, 0, 0, 0.08);
+}
+
+.vis-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    color: #1e3a8a;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.vis-subtitle {
+    font-size: 0.92em;
+    color: #64748b;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.vis-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+.description-text {
+    font-size: 0.92em;
+    color: #64748b;
+    text-align: left;
+    margin-top: 1.2em;
+    line-height: 1.5;
+}
+
+/* ---------- KEY FINDING CALLOUT ---------- */
+.key-finding {
+    background: #eff6ff;
+    border-left: 4px solid #1e3a8a;
+    border-radius: 0 12px 12px 0;
+    padding: 1em 1.4em;
+    margin: 0 0 1.5em 0;
+    text-align: left;
+}
+
+.key-finding .kf-label {
+    display: block;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1e3a8a;
+    margin-bottom: 0.3em;
+}
+
+.key-finding p {
+    margin: 0;
+    font-size: 0.98em;
+    color: #1e293b;
+    line-height: 1.5;
+}
+
+/* ---------- CONCLUSION ---------- */
+.takeaway-list {
+    padding-left: 1.2em;
+}
+
+.takeaway-list li {
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+}
+
+/* ---------- SOURCES ---------- */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.info-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.2em 1.4em;
+    text-align: left;
+}
+
+.info-card h4 {
+    margin: 0 0 0.4em 0;
+    color: #1e3a8a;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.info-card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+.info-card h4 a {
+    color: #1e3a8a;
+    text-decoration: none;
+    border-bottom: 1px solid #93c5fd;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.info-card h4 a:hover {
+    color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 0.88em;
+    line-height: 1.6;
+}
+
+.footer p {
+    margin: 0.3em 0;
+}
+
+.footer strong {
+    color: #f8fafc;
+}
+
+/* ---------- SCROLL REVEAL ---------- */
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 700px) {
+    .header { padding: 1.4em 1em; }
+    .header h1 { font-size: 1.9em; }
+    .section-wrapper { padding: 1.5em 1em; }
+    .section-main-title { font-size: 1.4em; }
+    .vis-card { padding: 1.2em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+}

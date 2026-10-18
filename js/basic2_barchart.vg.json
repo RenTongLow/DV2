@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 420,
+  "height": 218,
+  "padding": { "left": 5, "top": 5, "right": 5, "bottom": 5 },
+  "title": "Top 8 Fitness Activities by Participation Rate",
+  "data": {
+    "url": "data/AusPlay_SportActivities.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(replace(datum.Total, '%', ''))",
+      "as": "Total_Numeric"
+    },
+    {
+      "window": [{ "op": "rank", "as": "rank" }],
+      "sort": [{ "field": "Total_Numeric", "order": "descending" }]
+    },
+    { "filter": "datum.rank <= 8" }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Activity",
+      "type": "nominal",
+      "sort": "-y",
+      "title": "Activity",
+      "axis": { "labelAngle": -35 }
+    },
+    "y": {
+      "field": "Total_Numeric",
+      "type": "quantitative",
+      "title": "Participation (%)"
+    },
+    "color": {
+      "field": "Activity",
+      "type": "nominal",
+      "legend": null,
+      "scale": {
+        "range": [
+          "#0072B2",
+          "#E69F00",
+          "#009E73",
+          "#CC79A7",
+          "#56B4E9",
+          "#7B3294",
+          "#8C510A",
+          "#C9B800"
+        ]
+      }
+    },
+    "tooltip": [
+      { "field": "Activity", "type": "nominal", "title": "Activity" },
+      { "field": "Total", "type": "nominal", "title": "Participation (%)" }
+    ]
+  }
+}

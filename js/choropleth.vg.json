@@ -1,0 +1,207 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 380,
+  "height": 323,
+  "title": "Running Participation Rate by State/Territory (%)",
+  "projection": {
+    "type": "mercator",
+    "scale": 450,
+    "center": [133.0, -27.0]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_10m_admin_1_states_provinces"
+        }
+      },
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": { "url": "data/australia_state_running.csv" },
+            "key": "State",
+            "fields": ["Participation_Rate"]
+          }
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "color": {
+          "field": "Participation_Rate",
+          "type": "quantitative",
+          "title": "Participation (%)",
+          "scale": {
+            "range": ["#eff6ff", "#bfdbfe", "#93c5fd", "#60a5fa"]
+          },
+          "legend": {
+            "orient": "bottom-left",
+            "direction": "horizontal",
+            "gradientLength": 150
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.name",
+            "type": "nominal",
+            "title": "State/Territory"
+          },
+          {
+            "field": "Participation_Rate",
+            "type": "quantitative",
+            "title": "Participation Rate (%)"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          { "lon": 149.1, "lat": -35.4, "lon2": 152.2, "lat2": -36.4 },
+          { "lon": 148.4, "lat": -42.0, "lon2": 150.4, "lat2": -42.3 },
+          { "lon": 143.8, "lat": -37.9, "lon2": 141.8, "lat2": -39.2 }
+        ]
+      },
+      "mark": { "type": "rule", "stroke": "#475569", "strokeWidth": 1 },
+      "encoding": {
+        "longitude": { "field": "lon", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+        "longitude2": { "field": "lon2" },
+        "latitude2": { "field": "lat2" }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "State": "Western Australia",
+            "label": "Western Australia",
+            "lon": 122.0,
+            "lat": -25.5
+          },
+          {
+            "State": "Northern Territory",
+            "label": "Northern Territory",
+            "lon": 133.5,
+            "lat": -19.5
+          },
+          {
+            "State": "Queensland",
+            "label": "Queensland",
+            "lon": 144.5,
+            "lat": -22.5
+          },
+          {
+            "State": "South Australia",
+            "label": "South Australia",
+            "lon": 135.0,
+            "lat": -30.0
+          },
+          {
+            "State": "New South Wales",
+            "label": "New South Wales",
+            "lon": 146.5,
+            "lat": -32.5
+          },
+          {
+            "State": "Victoria",
+            "label": "Victoria",
+            "lon": 141.2,
+            "lat": -40.2
+          },
+          {
+            "State": "Tasmania",
+            "label": "Tasmania",
+            "lon": 152.4,
+            "lat": -42.5
+          },
+          {
+            "State": "Australian Capital Territory",
+            "label": "ACT",
+            "lon": 153.4,
+            "lat": -36.6
+          }
+        ]
+      },
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": { "url": "data/australia_state_running.csv" },
+            "key": "State",
+            "fields": ["Participation_Rate"]
+          }
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "dy": -8
+      },
+      "encoding": {
+        "longitude": { "field": "lon", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+        "text": { "field": "label", "type": "nominal" },
+        "color": { "value": "#111827" }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          { "State": "Western Australia", "lon": 122.0, "lat": -25.5 },
+          { "State": "Northern Territory", "lon": 133.5, "lat": -19.5 },
+          { "State": "Queensland", "lon": 144.5, "lat": -22.5 },
+          { "State": "South Australia", "lon": 135.0, "lat": -30.0 },
+          { "State": "New South Wales", "lon": 146.5, "lat": -32.5 },
+          { "State": "Victoria", "lon": 141.2, "lat": -40.2 },
+          { "State": "Tasmania", "lon": 152.4, "lat": -42.5 },
+          {
+            "State": "Australian Capital Territory",
+            "lon": 153.4,
+            "lat": -36.6
+          }
+        ]
+      },
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": { "url": "data/australia_state_running.csv" },
+            "key": "State",
+            "fields": ["Participation_Rate"]
+          }
+        },
+        {
+          "calculate": "format(datum.Participation_Rate, '.1f') + '%'",
+          "as": "pct_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "dy": 5
+      },
+      "encoding": {
+        "longitude": { "field": "lon", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+        "text": { "field": "pct_label", "type": "nominal" },
+        "color": { "value": "#111827" }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": null }
+  }
+}

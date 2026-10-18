@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 420,
+  "height": 240,
+  "title": "Total Running Participants Over Time",
+  "data": {
+    "url": "data/AusPlay_Running_Participation.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.Participants / 1000000",
+      "as": "Participants_Millions"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 3,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Participants_Millions",
+          "type": "quantitative",
+          "title": "Number of Participants (Millions)",
+          "axis": { "format": ".1f" },
+          "scale": { "domain": [2.5, 4.5], "zero": false }
+        },
+        "tooltip": [
+          { "field": "Year", "type": "ordinal", "title": "Year" },
+          {
+            "field": "Participants",
+            "type": "quantitative",
+            "title": "Participants",
+            "format": ","
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "Year": "2020",
+            "Participants_Millions": 3.68,
+            "label": "2020 COVID-19 Fitness Peak"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "dy": -12,
+        "fontWeight": "bold",
+        "fontSize": 11,
+        "color": "#1e3a8a"
+      },
+      "encoding": {
+        "x": { "field": "Year", "type": "ordinal" },
+        "y": { "field": "Participants_Millions", "type": "quantitative" },
+        "text": { "field": "label" }
+      }
+    }
+  ]
+}
