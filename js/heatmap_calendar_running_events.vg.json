@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
   "data": {
     "url": "data/aus_marathon_frequency.csv"
   },
@@ -19,8 +18,15 @@
     },
     {
       "aggregate": [
-        { "op": "count", "as": "event_count" },
-        { "op": "values", "field": "Event", "as": "events_list" }
+        {
+          "op": "count",
+          "as": "event_count"
+        },
+        {
+          "op": "values",
+          "field": "Event",
+          "as": "events_list"
+        }
       ],
       "groupby": ["month_num", "day_of_month"]
     },
@@ -64,6 +70,15 @@
     {
       "calculate": "datum.events_list ? slice(datum.events_list, 0, 3) : []",
       "as": "sample_events"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "max",
+          "field": "event_count",
+          "as": "max_count"
+        }
+      ]
     }
   ],
   "columns": 6,
@@ -138,8 +153,9 @@
             "legend": {
               "orient": "bottom",
               "direction": "horizontal",
-              "gradientLength": 200,
-              "values": [0, 4, 8, 12, 16]
+              "gradientLength": 160,
+              "values": [0, 4, 8, 12, 16],
+              "title": "Events Count"
             }
           },
           "tooltip": [
@@ -187,6 +203,19 @@
             "value": "#22421d"
           }
         }
+      },
+      {
+        "transform": [
+          {
+            "filter": "datum.event_count == datum.max_count"
+          }
+        ],
+        "mark": {
+          "type": "rect",
+          "fill": null,
+          "stroke": "#dc2626",
+          "strokeWidth": 2.5
+        }
       }
     ]
   },
@@ -199,5 +228,14 @@
     "view": {
       "stroke": "transparent"
     }
+  },
+  "title": {
+    "text": "Red outline = busiest day: Sunday 4 May (16 events)",
+    "orient": "bottom",
+    "anchor": "start",
+    "fontSize": 13,
+    "fontWeight": "normal",
+    "color": "#64748b",
+    "offset": 14
   }
 }

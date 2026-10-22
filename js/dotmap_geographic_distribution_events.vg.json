@@ -1,0 +1,239 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "width": 600,
+  "height": 380,
+  "projection": {
+    "type": "mercator",
+    "scale": 450,
+    "center": [133.0, -27.0]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_10m_admin_1_states_provinces"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e5e7eb",
+        "stroke": "#ffffff",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "url": "data/all_runningcalendar_combined.csv"
+      },
+      "params": [
+        {
+          "name": "category_selection",
+          "select": {
+            "type": "point",
+            "fields": ["category"]
+          },
+          "bind": {
+            "input": "select",
+            "options": [null, "Marathon", "Half Marathon", "10K", "5K"],
+            "labels": ["All", "Marathon", "Half Marathon", "10K", "5K"],
+            "name": "Category Filter: "
+          }
+        }
+      ],
+      "transform": [
+        {
+          "filter": {
+            "param": "category_selection"
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.6,
+        "size": 60,
+        "stroke": null
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "category",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Marathon", "Half Marathon", "10K", "5K"],
+            "range": ["#332288", "#CC79A7", "#E69F00", "#56B4E9"]
+          },
+          "legend": {
+            "title": "Category"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "event_name",
+            "type": "nominal",
+            "title": "Event"
+          },
+          {
+            "field": "category",
+            "type": "nominal",
+            "title": "Category"
+          },
+          {
+            "field": "date",
+            "type": "nominal",
+            "title": "Date"
+          },
+          {
+            "field": "location",
+            "type": "nominal",
+            "title": "Location"
+          },
+          {
+            "field": "distance",
+            "type": "nominal",
+            "title": "Distance"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "name": "Sydney",
+            "lon": 151.2,
+            "lat": -33.9
+          },
+          {
+            "name": "Brisbane",
+            "lon": 153.0,
+            "lat": -27.5
+          },
+          {
+            "name": "Hobart",
+            "lon": 147.3,
+            "lat": -42.9
+          },
+          {
+            "name": "Christmas Island",
+            "lon": 105.6,
+            "lat": -10.5
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": "#111827",
+        "align": "left",
+        "dx": 9
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "name": "Perth",
+            "lon": 115.9,
+            "lat": -31.95
+          },
+          {
+            "name": "Adelaide",
+            "lon": 138.6,
+            "lat": -34.9
+          },
+          {
+            "name": "Norfolk Island",
+            "lon": 168.0,
+            "lat": -29.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": "#111827",
+        "align": "right",
+        "dx": -9
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "name": "Melbourne",
+            "lon": 145.0,
+            "lat": -37.8
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "color": "#111827",
+        "align": "center",
+        "baseline": "top",
+        "dy": 10
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

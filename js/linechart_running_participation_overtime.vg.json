@@ -1,0 +1,336 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 260,
+  "layer": [
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'participants' && datum.year"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 3,
+        "color": "#12939a"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "zero": false,
+            "domain": [2500000, 4500000]
+          },
+          "title": "Participants (millions)",
+          "axis": {
+            "grid": true,
+            "values": [2500000, 3000000, 3500000, 4000000, 4500000],
+            "labelExpr": "format(datum.value / 1000000, '.1f') + 'M'"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Participants",
+            "format": ","
+          },
+          {
+            "field": "methodology",
+            "type": "nominal",
+            "title": "Survey Method"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "year": "2023",
+            "note": "Survey switches\nto online panel"
+          }
+        ]
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "strokeDash": [4, 4],
+            "color": "#94a3b8",
+            "strokeWidth": 1.5
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "ordinal"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "bottom",
+            "dx": 5,
+            "fontSize": 10,
+            "fontStyle": "italic",
+            "color": "#64748b",
+            "lineBreak": "\n"
+          },
+          "encoding": {
+            "x": {
+              "field": "year",
+              "type": "ordinal"
+            },
+            "y": {
+              "datum": 2600000,
+              "type": "quantitative"
+            },
+            "text": {
+              "field": "note",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'participants' && datum.year"
+        },
+        {
+          "filter": "indexof([\"2015\"], datum.year) >= 0"
+        },
+        {
+          "calculate": "format(datum.value / 1000000, '.2f') + 'M'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "top",
+        "align": "center",
+        "dy": 10,
+        "dx": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "zero": false,
+            "domain": [2500000, 4500000]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'participants' && datum.year"
+        },
+        {
+          "filter": "indexof([\"2020\"], datum.year) >= 0"
+        },
+        {
+          "calculate": "'COVID-19 peak\\n' + format(datum.value / 1000000, '.2f') + 'M'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "align": "center",
+        "dy": -16,
+        "dx": 0,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "zero": false,
+            "domain": [2500000, 4500000]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'participants' && datum.year"
+        },
+        {
+          "filter": "indexof([\"2021\"], datum.year) >= 0"
+        },
+        {
+          "calculate": "format(datum.value / 1000000, '.2f') + 'M' + '\\n' + 'Post-COVID dip'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "top",
+        "align": "center",
+        "dy": 12,
+        "dx": 1,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "zero": false,
+            "domain": [2500000, 4500000]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'participants' && datum.year"
+        },
+        {
+          "filter": "indexof([\"2025\"], datum.year) >= 0"
+        },
+        {
+          "calculate": "format(datum.value / 1000000, '.2f') + 'M'",
+          "as": "label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "baseline": "bottom",
+        "align": "right",
+        "dy": -12,
+        "dx": 6,
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n"
+      },
+      "encoding": {
+        "x": {
+          "field": "year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "zero": false,
+            "domain": [2500000, 4500000]
+          }
+        },
+        "text": {
+          "field": "label",
+          "type": "nominal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

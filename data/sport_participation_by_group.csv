@@ -1,0 +1,1421 @@
+activity,group_type,group,group_order,participation_pct,is_running
+Adventure racing,Total,All,0,0.1,False
+Adventure racing,Gender,Male,1,0.1,False
+Adventure racing,Gender,Female,2,0.1,False
+Adventure racing,Age,15-17,3,0.0,False
+Adventure racing,Age,18-24,4,0.2,False
+Adventure racing,Age,25-34,5,0.1,False
+Adventure racing,Age,35-44,6,0.1,False
+Adventure racing,Age,45-54,7,0.1,False
+Adventure racing,Age,55-64,8,0.0,False
+Adventure racing,Age,65+,9,0.0,False
+Air sports,Total,All,0,0.2,False
+Air sports,Gender,Male,1,0.3,False
+Air sports,Gender,Female,2,0.1,False
+Air sports,Age,15-17,3,0.4,False
+Air sports,Age,18-24,4,0.5,False
+Air sports,Age,25-34,5,0.4,False
+Air sports,Age,35-44,6,0.2,False
+Air sports,Age,45-54,7,0.1,False
+Air sports,Age,55-64,8,0.1,False
+Air sports,Age,65+,9,0.1,False
+Archery,Total,All,0,0.2,False
+Archery,Gender,Male,1,0.2,False
+Archery,Gender,Female,2,0.1,False
+Archery,Age,15-17,3,0.3,False
+Archery,Age,18-24,4,0.2,False
+Archery,Age,25-34,5,0.3,False
+Archery,Age,35-44,6,0.3,False
+Archery,Age,45-54,7,0.2,False
+Archery,Age,55-64,8,0.1,False
+Archery,Age,65+,9,0.0,False
+"Athletics, track and field",Total,All,0,1.3,False
+"Athletics, track and field",Gender,Male,1,1.7,False
+"Athletics, track and field",Gender,Female,2,0.9,False
+"Athletics, track and field",Age,15-17,3,5.8,False
+"Athletics, track and field",Age,18-24,4,2.9,False
+"Athletics, track and field",Age,25-34,5,2.1,False
+"Athletics, track and field",Age,35-44,6,1.1,False
+"Athletics, track and field",Age,45-54,7,0.6,False
+"Athletics, track and field",Age,55-64,8,0.3,False
+"Athletics, track and field",Age,65+,9,0.2,False
+Australian football,Total,All,0,2.4,False
+Australian football,Gender,Male,1,3.8,False
+Australian football,Gender,Female,2,1.1,False
+Australian football,Age,15-17,3,6.0,False
+Australian football,Age,18-24,4,6.0,False
+Australian football,Age,25-34,5,4.8,False
+Australian football,Age,35-44,6,2.1,False
+Australian football,Age,45-54,7,1.4,False
+Australian football,Age,55-64,8,0.4,False
+Australian football,Age,65+,9,0.1,False
+Badminton,Total,All,0,1.9,False
+Badminton,Gender,Male,1,2.2,False
+Badminton,Gender,Female,2,1.6,False
+Badminton,Age,15-17,3,9.1,False
+Badminton,Age,18-24,4,4.2,False
+Badminton,Age,25-34,5,3.0,False
+Badminton,Age,35-44,6,1.7,False
+Badminton,Age,45-54,7,0.8,False
+Badminton,Age,55-64,8,0.3,False
+Badminton,Age,65+,9,0.1,False
+Baseball,Total,All,0,0.3,False
+Baseball,Gender,Male,1,0.5,False
+Baseball,Gender,Female,2,0.2,False
+Baseball,Age,15-17,3,0.7,False
+Baseball,Age,18-24,4,0.5,False
+Baseball,Age,25-34,5,0.5,False
+Baseball,Age,35-44,6,0.4,False
+Baseball,Age,45-54,7,0.4,False
+Baseball,Age,55-64,8,0.1,False
+Baseball,Age,65+,9,0.0,False
+Basketball,Total,All,0,4.5,False
+Basketball,Gender,Male,1,6.8,False
+Basketball,Gender,Female,2,2.3,False
+Basketball,Age,15-17,3,17.3,False
+Basketball,Age,18-24,4,11.7,False
+Basketball,Age,25-34,5,6.2,False
+Basketball,Age,35-44,6,4.8,False
+Basketball,Age,45-54,7,2.6,False
+Basketball,Age,55-64,8,0.8,False
+Basketball,Age,65+,9,0.2,False
+Baton twirling,Total,All,0,0.0,False
+Baton twirling,Gender,Male,1,0.0,False
+Baton twirling,Gender,Female,2,0.0,False
+Baton twirling,Age,15-17,3,0.0,False
+Baton twirling,Age,18-24,4,0.0,False
+Baton twirling,Age,25-34,5,0.0,False
+Baton twirling,Age,35-44,6,0.0,False
+Baton twirling,Age,45-54,7,0.0,False
+Baton twirling,Age,55-64,8,0.0,False
+Baton twirling,Age,65+,9,0.0,False
+Biathlon,Total,All,0,0.0,False
+Biathlon,Gender,Male,1,0.0,False
+Biathlon,Gender,Female,2,0.0,False
+Biathlon,Age,15-17,3,0.0,False
+Biathlon,Age,18-24,4,0.0,False
+Biathlon,Age,25-34,5,0.0,False
+Biathlon,Age,35-44,6,0.0,False
+Biathlon,Age,45-54,7,0.0,False
+Biathlon,Age,55-64,8,0.0,False
+Biathlon,Age,65+,9,0.0,False
+Billiards/Snooker/Pool,Total,All,0,0.3,False
+Billiards/Snooker/Pool,Gender,Male,1,0.4,False
+Billiards/Snooker/Pool,Gender,Female,2,0.2,False
+Billiards/Snooker/Pool,Age,15-17,3,0.4,False
+Billiards/Snooker/Pool,Age,18-24,4,0.4,False
+Billiards/Snooker/Pool,Age,25-34,5,0.5,False
+Billiards/Snooker/Pool,Age,35-44,6,0.3,False
+Billiards/Snooker/Pool,Age,45-54,7,0.3,False
+Billiards/Snooker/Pool,Age,55-64,8,0.3,False
+Billiards/Snooker/Pool,Age,65+,9,0.2,False
+BMX,Total,All,0,0.0,False
+BMX,Gender,Male,1,0.0,False
+BMX,Gender,Female,2,0.0,False
+BMX,Age,15-17,3,0.0,False
+BMX,Age,18-24,4,0.0,False
+BMX,Age,25-34,5,0.0,False
+BMX,Age,35-44,6,0.1,False
+BMX,Age,45-54,7,0.1,False
+BMX,Age,55-64,8,0.0,False
+BMX,Age,65+,9,0.0,False
+Bobsledding,Total,All,0,0.0,False
+Bobsledding,Gender,Male,1,0.0,False
+Bobsledding,Gender,Female,2,0.0,False
+Bobsledding,Age,15-17,3,0.0,False
+Bobsledding,Age,18-24,4,0.0,False
+Bobsledding,Age,25-34,5,0.0,False
+Bobsledding,Age,35-44,6,0.0,False
+Bobsledding,Age,45-54,7,0.0,False
+Bobsledding,Age,55-64,8,0.0,False
+Bobsledding,Age,65+,9,0.0,False
+Bocce/Boules,Total,All,0,0.0,False
+Bocce/Boules,Gender,Male,1,0.0,False
+Bocce/Boules,Gender,Female,2,0.0,False
+Bocce/Boules,Age,15-17,3,0.0,False
+Bocce/Boules,Age,18-24,4,0.0,False
+Bocce/Boules,Age,25-34,5,0.0,False
+Bocce/Boules,Age,35-44,6,0.0,False
+Bocce/Boules,Age,45-54,7,0.0,False
+Bocce/Boules,Age,55-64,8,0.0,False
+Bocce/Boules,Age,65+,9,0.0,False
+Boccia,Total,All,0,0.0,False
+Boccia,Gender,Male,1,0.0,False
+Boccia,Gender,Female,2,0.0,False
+Boccia,Age,15-17,3,0.0,False
+Boccia,Age,18-24,4,0.0,False
+Boccia,Age,25-34,5,0.0,False
+Boccia,Age,35-44,6,0.0,False
+Boccia,Age,45-54,7,0.0,False
+Boccia,Age,55-64,8,0.0,False
+Boccia,Age,65+,9,0.0,False
+Body building,Total,All,0,0.0,False
+Body building,Gender,Male,1,0.1,False
+Body building,Gender,Female,2,0.0,False
+Body building,Age,15-17,3,0.0,False
+Body building,Age,18-24,4,0.1,False
+Body building,Age,25-34,5,0.1,False
+Body building,Age,35-44,6,0.0,False
+Body building,Age,45-54,7,0.0,False
+Body building,Age,55-64,8,0.0,False
+Body building,Age,65+,9,0.0,False
+Boomerang throwing,Total,All,0,0.0,False
+Boomerang throwing,Gender,Male,1,0.0,False
+Boomerang throwing,Gender,Female,2,0.0,False
+Boomerang throwing,Age,15-17,3,0.2,False
+Boomerang throwing,Age,18-24,4,0.0,False
+Boomerang throwing,Age,25-34,5,0.0,False
+Boomerang throwing,Age,35-44,6,0.0,False
+Boomerang throwing,Age,45-54,7,0.0,False
+Boomerang throwing,Age,55-64,8,0.0,False
+Boomerang throwing,Age,65+,9,0.0,False
+Bowls,Total,All,0,0.8,False
+Bowls,Gender,Male,1,1.1,False
+Bowls,Gender,Female,2,0.6,False
+Bowls,Age,15-17,3,0.1,False
+Bowls,Age,18-24,4,0.1,False
+Bowls,Age,25-34,5,0.3,False
+Bowls,Age,35-44,6,0.2,False
+Bowls,Age,45-54,7,0.4,False
+Bowls,Age,55-64,8,1.0,False
+Bowls,Age,65+,9,2.5,False
+Boxing,Total,All,0,0.8,False
+Boxing,Gender,Male,1,1.0,False
+Boxing,Gender,Female,2,0.7,False
+Boxing,Age,15-17,3,1.0,False
+Boxing,Age,18-24,4,1.8,False
+Boxing,Age,25-34,5,1.6,False
+Boxing,Age,35-44,6,1.0,False
+Boxing,Age,45-54,7,0.7,False
+Boxing,Age,55-64,8,0.3,False
+Boxing,Age,65+,9,0.1,False
+Broomball,Total,All,0,0.0,False
+Broomball,Gender,Male,1,0.0,False
+Broomball,Gender,Female,2,0.0,False
+Broomball,Age,15-17,3,0.0,False
+Broomball,Age,18-24,4,0.0,False
+Broomball,Age,25-34,5,0.0,False
+Broomball,Age,35-44,6,0.0,False
+Broomball,Age,45-54,7,0.0,False
+Broomball,Age,55-64,8,0.0,False
+Broomball,Age,65+,9,0.0,False
+Bush walking,Total,All,0,17.5,False
+Bush walking,Gender,Male,1,16.3,False
+Bush walking,Gender,Female,2,18.6,False
+Bush walking,Age,15-17,3,14.6,False
+Bush walking,Age,18-24,4,17.3,False
+Bush walking,Age,25-34,5,20.3,False
+Bush walking,Age,35-44,6,21.4,False
+Bush walking,Age,45-54,7,19.7,False
+Bush walking,Age,55-64,8,19.5,False
+Bush walking,Age,65+,9,9.6,False
+Calisthenics,Total,All,0,0.4,False
+Calisthenics,Gender,Male,1,0.6,False
+Calisthenics,Gender,Female,2,0.2,False
+Calisthenics,Age,15-17,3,1.2,False
+Calisthenics,Age,18-24,4,0.7,False
+Calisthenics,Age,25-34,5,0.5,False
+Calisthenics,Age,35-44,6,0.3,False
+Calisthenics,Age,45-54,7,0.3,False
+Calisthenics,Age,55-64,8,0.2,False
+Calisthenics,Age,65+,9,0.1,False
+Campdrafting,Total,All,0,0.0,False
+Campdrafting,Gender,Male,1,0.0,False
+Campdrafting,Gender,Female,2,0.0,False
+Campdrafting,Age,15-17,3,0.0,False
+Campdrafting,Age,18-24,4,0.0,False
+Campdrafting,Age,25-34,5,0.0,False
+Campdrafting,Age,35-44,6,0.0,False
+Campdrafting,Age,45-54,7,0.0,False
+Campdrafting,Age,55-64,8,0.0,False
+Campdrafting,Age,65+,9,0.0,False
+Canoeing/Kayaking,Total,All,0,1.0,False
+Canoeing/Kayaking,Gender,Male,1,1.0,False
+Canoeing/Kayaking,Gender,Female,2,1.0,False
+Canoeing/Kayaking,Age,15-17,3,0.7,False
+Canoeing/Kayaking,Age,18-24,4,0.6,False
+Canoeing/Kayaking,Age,25-34,5,1.0,False
+Canoeing/Kayaking,Age,35-44,6,1.1,False
+Canoeing/Kayaking,Age,45-54,7,1.3,False
+Canoeing/Kayaking,Age,55-64,8,1.5,False
+Canoeing/Kayaking,Age,65+,9,0.7,False
+Circus,Total,All,0,0.0,False
+Circus,Gender,Male,1,0.0,False
+Circus,Gender,Female,2,0.1,False
+Circus,Age,15-17,3,0.2,False
+Circus,Age,18-24,4,0.0,False
+Circus,Age,25-34,5,0.1,False
+Circus,Age,35-44,6,0.0,False
+Circus,Age,45-54,7,0.0,False
+Circus,Age,55-64,8,0.0,False
+Circus,Age,65+,9,0.0,False
+Cricket,Total,All,0,2.5,False
+Cricket,Gender,Male,1,4.2,False
+Cricket,Gender,Female,2,0.8,False
+Cricket,Age,15-17,3,8.4,False
+Cricket,Age,18-24,4,4.8,False
+Cricket,Age,25-34,5,3.5,False
+Cricket,Age,35-44,6,2.7,False
+Cricket,Age,45-54,7,2.0,False
+Cricket,Age,55-64,8,1.0,False
+Cricket,Age,65+,9,0.3,False
+Croquet,Total,All,0,0.1,False
+Croquet,Gender,Male,1,0.1,False
+Croquet,Gender,Female,2,0.1,False
+Croquet,Age,15-17,3,0.0,False
+Croquet,Age,18-24,4,0.0,False
+Croquet,Age,25-34,5,0.0,False
+Croquet,Age,35-44,6,0.0,False
+Croquet,Age,45-54,7,0.0,False
+Croquet,Age,55-64,8,0.0,False
+Croquet,Age,65+,9,0.4,False
+Crossfit/Functional fitness,Total,All,0,0.6,False
+Crossfit/Functional fitness,Gender,Male,1,0.5,False
+Crossfit/Functional fitness,Gender,Female,2,0.7,False
+Crossfit/Functional fitness,Age,15-17,3,0.2,False
+Crossfit/Functional fitness,Age,18-24,4,0.5,False
+Crossfit/Functional fitness,Age,25-34,5,1.3,False
+Crossfit/Functional fitness,Age,35-44,6,1.1,False
+Crossfit/Functional fitness,Age,45-54,7,0.6,False
+Crossfit/Functional fitness,Age,55-64,8,0.4,False
+Crossfit/Functional fitness,Age,65+,9,0.1,False
+Curling,Total,All,0,0.0,False
+Curling,Gender,Male,1,0.0,False
+Curling,Gender,Female,2,0.0,False
+Curling,Age,15-17,3,0.0,False
+Curling,Age,18-24,4,0.0,False
+Curling,Age,25-34,5,0.0,False
+Curling,Age,35-44,6,0.1,False
+Curling,Age,45-54,7,0.0,False
+Curling,Age,55-64,8,0.0,False
+Curling,Age,65+,9,0.0,False
+Cycling,Total,All,0,8.3,False
+Cycling,Gender,Male,1,10.4,False
+Cycling,Gender,Female,2,6.3,False
+Cycling,Age,15-17,3,6.7,False
+Cycling,Age,18-24,4,5.6,False
+Cycling,Age,25-34,5,7.1,False
+Cycling,Age,35-44,6,9.3,False
+Cycling,Age,45-54,7,11.6,False
+Cycling,Age,55-64,8,12.0,False
+Cycling,Age,65+,9,5.6,False
+DanceSport,Total,All,0,1.1,False
+DanceSport,Gender,Male,1,0.3,False
+DanceSport,Gender,Female,2,1.9,False
+DanceSport,Age,15-17,3,3.7,False
+DanceSport,Age,18-24,4,2.6,False
+DanceSport,Age,25-34,5,1.3,False
+DanceSport,Age,35-44,6,1.1,False
+DanceSport,Age,45-54,7,0.7,False
+DanceSport,Age,55-64,8,0.7,False
+DanceSport,Age,65+,9,0.4,False
+Dancing (recreational),Total,All,0,1.6,False
+Dancing (recreational),Gender,Male,1,0.5,False
+Dancing (recreational),Gender,Female,2,2.7,False
+Dancing (recreational),Age,15-17,3,2.6,False
+Dancing (recreational),Age,18-24,4,2.4,False
+Dancing (recreational),Age,25-34,5,1.9,False
+Dancing (recreational),Age,35-44,6,1.7,False
+Dancing (recreational),Age,45-54,7,1.2,False
+Dancing (recreational),Age,55-64,8,1.1,False
+Dancing (recreational),Age,65+,9,1.3,False
+Darts,Total,All,0,0.2,False
+Darts,Gender,Male,1,0.2,False
+Darts,Gender,Female,2,0.1,False
+Darts,Age,15-17,3,0.0,False
+Darts,Age,18-24,4,0.3,False
+Darts,Age,25-34,5,0.1,False
+Darts,Age,35-44,6,0.2,False
+Darts,Age,45-54,7,0.2,False
+Darts,Age,55-64,8,0.2,False
+Darts,Age,65+,9,0.1,False
+Diving,Total,All,0,0.0,False
+Diving,Gender,Male,1,0.1,False
+Diving,Gender,Female,2,0.0,False
+Diving,Age,15-17,3,0.0,False
+Diving,Age,18-24,4,0.2,False
+Diving,Age,25-34,5,0.0,False
+Diving,Age,35-44,6,0.0,False
+Diving,Age,45-54,7,0.0,False
+Diving,Age,55-64,8,0.1,False
+Diving,Age,65+,9,0.0,False
+Dodgeball,Total,All,0,0.1,False
+Dodgeball,Gender,Male,1,0.1,False
+Dodgeball,Gender,Female,2,0.1,False
+Dodgeball,Age,15-17,3,0.5,False
+Dodgeball,Age,18-24,4,0.1,False
+Dodgeball,Age,25-34,5,0.2,False
+Dodgeball,Age,35-44,6,0.1,False
+Dodgeball,Age,45-54,7,0.0,False
+Dodgeball,Age,55-64,8,0.0,False
+Dodgeball,Age,65+,9,0.0,False
+Dragon boat racing,Total,All,0,0.1,False
+Dragon boat racing,Gender,Male,1,0.1,False
+Dragon boat racing,Gender,Female,2,0.1,False
+Dragon boat racing,Age,15-17,3,0.0,False
+Dragon boat racing,Age,18-24,4,0.0,False
+Dragon boat racing,Age,25-34,5,0.0,False
+Dragon boat racing,Age,35-44,6,0.1,False
+Dragon boat racing,Age,45-54,7,0.1,False
+Dragon boat racing,Age,55-64,8,0.1,False
+Dragon boat racing,Age,65+,9,0.1,False
+Eight ball,Total,All,0,0.0,False
+Eight ball,Gender,Male,1,0.0,False
+Eight ball,Gender,Female,2,0.0,False
+Eight ball,Age,15-17,3,0.0,False
+Eight ball,Age,18-24,4,0.1,False
+Eight ball,Age,25-34,5,0.0,False
+Eight ball,Age,35-44,6,0.0,False
+Eight ball,Age,45-54,7,0.0,False
+Eight ball,Age,55-64,8,0.0,False
+Eight ball,Age,65+,9,0.0,False
+Equestrian,Total,All,0,0.4,False
+Equestrian,Gender,Male,1,0.1,False
+Equestrian,Gender,Female,2,0.7,False
+Equestrian,Age,15-17,3,0.5,False
+Equestrian,Age,18-24,4,0.7,False
+Equestrian,Age,25-34,5,0.6,False
+Equestrian,Age,35-44,6,0.4,False
+Equestrian,Age,45-54,7,0.4,False
+Equestrian,Age,55-64,8,0.6,False
+Equestrian,Age,65+,9,0.1,False
+eSports,Total,All,0,0.2,False
+eSports,Gender,Male,1,0.3,False
+eSports,Gender,Female,2,0.1,False
+eSports,Age,15-17,3,0.1,False
+eSports,Age,18-24,4,0.7,False
+eSports,Age,25-34,5,0.4,False
+eSports,Age,35-44,6,0.2,False
+eSports,Age,45-54,7,0.1,False
+eSports,Age,55-64,8,0.0,False
+eSports,Age,65+,9,0.0,False
+Fencing,Total,All,0,0.0,False
+Fencing,Gender,Male,1,0.1,False
+Fencing,Gender,Female,2,0.0,False
+Fencing,Age,15-17,3,0.1,False
+Fencing,Age,18-24,4,0.2,False
+Fencing,Age,25-34,5,0.1,False
+Fencing,Age,35-44,6,0.0,False
+Fencing,Age,45-54,7,0.1,False
+Fencing,Age,55-64,8,0.0,False
+Fencing,Age,65+,9,0.0,False
+Fishing (recreational),Total,All,0,1.1,False
+Fishing (recreational),Gender,Male,1,1.7,False
+Fishing (recreational),Gender,Female,2,0.5,False
+Fishing (recreational),Age,15-17,3,1.1,False
+Fishing (recreational),Age,18-24,4,0.7,False
+Fishing (recreational),Age,25-34,5,0.9,False
+Fishing (recreational),Age,35-44,6,1.0,False
+Fishing (recreational),Age,45-54,7,1.4,False
+Fishing (recreational),Age,55-64,8,1.6,False
+Fishing (recreational),Age,65+,9,0.9,False
+Fitness/Gym,Total,All,0,34.1,False
+Fitness/Gym,Gender,Male,1,33.1,False
+Fitness/Gym,Gender,Female,2,35.1,False
+Fitness/Gym,Age,15-17,3,37.3,False
+Fitness/Gym,Age,18-24,4,43.4,False
+Fitness/Gym,Age,25-34,5,42.1,False
+Fitness/Gym,Age,35-44,6,36.4,False
+Fitness/Gym,Age,45-54,7,32.9,False
+Fitness/Gym,Age,55-64,8,29.5,False
+Fitness/Gym,Age,65+,9,23.7,False
+Floorball,Total,All,0,0.0,False
+Floorball,Gender,Male,1,0.0,False
+Floorball,Gender,Female,2,0.0,False
+Floorball,Age,15-17,3,0.2,False
+Floorball,Age,18-24,4,0.1,False
+Floorball,Age,25-34,5,0.0,False
+Floorball,Age,35-44,6,0.0,False
+Floorball,Age,45-54,7,0.0,False
+Floorball,Age,55-64,8,0.0,False
+Floorball,Age,65+,9,0.0,False
+Flying disc,Total,All,0,0.2,False
+Flying disc,Gender,Male,1,0.3,False
+Flying disc,Gender,Female,2,0.2,False
+Flying disc,Age,15-17,3,0.7,False
+Flying disc,Age,18-24,4,0.7,False
+Flying disc,Age,25-34,5,0.4,False
+Flying disc,Age,35-44,6,0.2,False
+Flying disc,Age,45-54,7,0.2,False
+Flying disc,Age,55-64,8,0.1,False
+Flying disc,Age,65+,9,0.0,False
+Football/soccer,Total,All,0,5.6,False
+Football/soccer,Gender,Male,1,8.9,False
+Football/soccer,Gender,Female,2,2.5,False
+Football/soccer,Age,15-17,3,17.0,False
+Football/soccer,Age,18-24,4,12.3,False
+Football/soccer,Age,25-34,5,9.4,False
+Football/soccer,Age,35-44,6,6.9,False
+Football/soccer,Age,45-54,7,3.3,False
+Football/soccer,Age,55-64,8,1.0,False
+Football/soccer,Age,65+,9,0.1,False
+Gaelic football,Total,All,0,0.1,False
+Gaelic football,Gender,Male,1,0.1,False
+Gaelic football,Gender,Female,2,0.0,False
+Gaelic football,Age,15-17,3,0.0,False
+Gaelic football,Age,18-24,4,0.1,False
+Gaelic football,Age,25-34,5,0.2,False
+Gaelic football,Age,35-44,6,0.0,False
+Gaelic football,Age,45-54,7,0.1,False
+Gaelic football,Age,55-64,8,0.0,False
+Gaelic football,Age,65+,9,0.0,False
+Geocaching,Total,All,0,0.0,False
+Geocaching,Gender,Male,1,0.0,False
+Geocaching,Gender,Female,2,0.0,False
+Geocaching,Age,15-17,3,0.0,False
+Geocaching,Age,18-24,4,0.0,False
+Geocaching,Age,25-34,5,0.0,False
+Geocaching,Age,35-44,6,0.1,False
+Geocaching,Age,45-54,7,0.0,False
+Geocaching,Age,55-64,8,0.1,False
+Geocaching,Age,65+,9,0.0,False
+Goalball,Total,All,0,0.0,False
+Goalball,Gender,Male,1,0.0,False
+Goalball,Gender,Female,2,0.0,False
+Goalball,Age,15-17,3,0.2,False
+Goalball,Age,18-24,4,0.0,False
+Goalball,Age,25-34,5,0.0,False
+Goalball,Age,35-44,6,0.0,False
+Goalball,Age,45-54,7,0.0,False
+Goalball,Age,55-64,8,0.0,False
+Goalball,Age,65+,9,0.0,False
+Golf,Total,All,0,4.6,False
+Golf,Gender,Male,1,7.6,False
+Golf,Gender,Female,2,1.7,False
+Golf,Age,15-17,3,2.4,False
+Golf,Age,18-24,4,2.8,False
+Golf,Age,25-34,5,3.5,False
+Golf,Age,35-44,6,3.4,False
+Golf,Age,45-54,7,4.8,False
+Golf,Age,55-64,8,6.9,False
+Golf,Age,65+,9,6.1,False
+Gridiron,Total,All,0,0.0,False
+Gridiron,Gender,Male,1,0.1,False
+Gridiron,Gender,Female,2,0.0,False
+Gridiron,Age,15-17,3,0.3,False
+Gridiron,Age,18-24,4,0.1,False
+Gridiron,Age,25-34,5,0.0,False
+Gridiron,Age,35-44,6,0.0,False
+Gridiron,Age,45-54,7,0.0,False
+Gridiron,Age,55-64,8,0.0,False
+Gridiron,Age,65+,9,0.0,False
+Guides,Total,All,0,0.0,False
+Guides,Gender,Male,1,0.0,False
+Guides,Gender,Female,2,0.0,False
+Guides,Age,15-17,3,0.0,False
+Guides,Age,18-24,4,0.0,False
+Guides,Age,25-34,5,0.0,False
+Guides,Age,35-44,6,0.0,False
+Guides,Age,45-54,7,0.0,False
+Guides,Age,55-64,8,0.0,False
+Guides,Age,65+,9,0.0,False
+Gymnastics,Total,All,0,0.5,False
+Gymnastics,Gender,Male,1,0.3,False
+Gymnastics,Gender,Female,2,0.7,False
+Gymnastics,Age,15-17,3,2.5,False
+Gymnastics,Age,18-24,4,1.1,False
+Gymnastics,Age,25-34,5,0.7,False
+Gymnastics,Age,35-44,6,0.7,False
+Gymnastics,Age,45-54,7,0.2,False
+Gymnastics,Age,55-64,8,0.2,False
+Gymnastics,Age,65+,9,0.1,False
+Handball,Total,All,0,0.1,False
+Handball,Gender,Male,1,0.1,False
+Handball,Gender,Female,2,0.1,False
+Handball,Age,15-17,3,1.1,False
+Handball,Age,18-24,4,0.2,False
+Handball,Age,25-34,5,0.2,False
+Handball,Age,35-44,6,0.0,False
+Handball,Age,45-54,7,0.0,False
+Handball,Age,55-64,8,0.0,False
+Handball,Age,65+,9,0.0,False
+Harness racing,Total,All,0,0.0,False
+Harness racing,Gender,Male,1,0.0,False
+Harness racing,Gender,Female,2,0.0,False
+Harness racing,Age,15-17,3,0.0,False
+Harness racing,Age,18-24,4,0.0,False
+Harness racing,Age,25-34,5,0.0,False
+Harness racing,Age,35-44,6,0.0,False
+Harness racing,Age,45-54,7,0.0,False
+Harness racing,Age,55-64,8,0.0,False
+Harness racing,Age,65+,9,0.0,False
+Hockey,Total,All,0,0.5,False
+Hockey,Gender,Male,1,0.5,False
+Hockey,Gender,Female,2,0.5,False
+Hockey,Age,15-17,3,1.6,False
+Hockey,Age,18-24,4,1.0,False
+Hockey,Age,25-34,5,0.6,False
+Hockey,Age,35-44,6,0.6,False
+Hockey,Age,45-54,7,0.4,False
+Hockey,Age,55-64,8,0.3,False
+Hockey,Age,65+,9,0.1,False
+Horse racing,Total,All,0,0.0,False
+Horse racing,Gender,Male,1,0.0,False
+Horse racing,Gender,Female,2,0.0,False
+Horse racing,Age,15-17,3,0.0,False
+Horse racing,Age,18-24,4,0.0,False
+Horse racing,Age,25-34,5,0.1,False
+Horse racing,Age,35-44,6,0.0,False
+Horse racing,Age,45-54,7,0.0,False
+Horse racing,Age,55-64,8,0.0,False
+Horse racing,Age,65+,9,0.0,False
+Ice hockey,Total,All,0,0.1,False
+Ice hockey,Gender,Male,1,0.1,False
+Ice hockey,Gender,Female,2,0.0,False
+Ice hockey,Age,15-17,3,0.3,False
+Ice hockey,Age,18-24,4,0.1,False
+Ice hockey,Age,25-34,5,0.0,False
+Ice hockey,Age,35-44,6,0.1,False
+Ice hockey,Age,45-54,7,0.0,False
+Ice hockey,Age,55-64,8,0.0,False
+Ice hockey,Age,65+,9,0.0,False
+Ice racing/speed skating,Total,All,0,0.0,False
+Ice racing/speed skating,Gender,Male,1,0.0,False
+Ice racing/speed skating,Gender,Female,2,0.0,False
+Ice racing/speed skating,Age,15-17,3,0.0,False
+Ice racing/speed skating,Age,18-24,4,0.0,False
+Ice racing/speed skating,Age,25-34,5,0.0,False
+Ice racing/speed skating,Age,35-44,6,0.0,False
+Ice racing/speed skating,Age,45-54,7,0.0,False
+Ice racing/speed skating,Age,55-64,8,0.0,False
+Ice racing/speed skating,Age,65+,9,0.0,False
+Ice skating,Total,All,0,0.2,False
+Ice skating,Gender,Male,1,0.1,False
+Ice skating,Gender,Female,2,0.3,False
+Ice skating,Age,15-17,3,1.7,False
+Ice skating,Age,18-24,4,0.4,False
+Ice skating,Age,25-34,5,0.2,False
+Ice skating,Age,35-44,6,0.2,False
+Ice skating,Age,45-54,7,0.1,False
+Ice skating,Age,55-64,8,0.1,False
+Ice skating,Age,65+,9,0.0,False
+Jet skiing,Total,All,0,0.1,False
+Jet skiing,Gender,Male,1,0.1,False
+Jet skiing,Gender,Female,2,0.0,False
+Jet skiing,Age,15-17,3,0.0,False
+Jet skiing,Age,18-24,4,0.1,False
+Jet skiing,Age,25-34,5,0.1,False
+Jet skiing,Age,35-44,6,0.1,False
+Jet skiing,Age,45-54,7,0.1,False
+Jet skiing,Age,55-64,8,0.1,False
+Jet skiing,Age,65+,9,0.0,False
+Judo,Total,All,0,0.1,False
+Judo,Gender,Male,1,0.1,False
+Judo,Gender,Female,2,0.1,False
+Judo,Age,15-17,3,0.5,False
+Judo,Age,18-24,4,0.1,False
+Judo,Age,25-34,5,0.1,False
+Judo,Age,35-44,6,0.0,False
+Judo,Age,45-54,7,0.0,False
+Judo,Age,55-64,8,0.0,False
+Judo,Age,65+,9,0.0,False
+Jujitsu,Total,All,0,0.2,False
+Jujitsu,Gender,Male,1,0.3,False
+Jujitsu,Gender,Female,2,0.1,False
+Jujitsu,Age,15-17,3,0.4,False
+Jujitsu,Age,18-24,4,0.2,False
+Jujitsu,Age,25-34,5,0.3,False
+Jujitsu,Age,35-44,6,0.3,False
+Jujitsu,Age,45-54,7,0.1,False
+Jujitsu,Age,55-64,8,0.0,False
+Jujitsu,Age,65+,9,0.0,False
+Karate,Total,All,0,0.2,False
+Karate,Gender,Male,1,0.2,False
+Karate,Gender,Female,2,0.1,False
+Karate,Age,15-17,3,0.4,False
+Karate,Age,18-24,4,0.4,False
+Karate,Age,25-34,5,0.1,False
+Karate,Age,35-44,6,0.3,False
+Karate,Age,45-54,7,0.1,False
+Karate,Age,55-64,8,0.2,False
+Karate,Age,65+,9,0.1,False
+Kendo,Total,All,0,0.0,False
+Kendo,Gender,Male,1,0.0,False
+Kendo,Gender,Female,2,0.0,False
+Kendo,Age,15-17,3,0.1,False
+Kendo,Age,18-24,4,0.1,False
+Kendo,Age,25-34,5,0.0,False
+Kendo,Age,35-44,6,0.0,False
+Kendo,Age,45-54,7,0.0,False
+Kendo,Age,55-64,8,0.0,False
+Kendo,Age,65+,9,0.0,False
+Kitesurfing/kiteboarding,Total,All,0,0.0,False
+Kitesurfing/kiteboarding,Gender,Male,1,0.0,False
+Kitesurfing/kiteboarding,Gender,Female,2,0.0,False
+Kitesurfing/kiteboarding,Age,15-17,3,0.0,False
+Kitesurfing/kiteboarding,Age,18-24,4,0.0,False
+Kitesurfing/kiteboarding,Age,25-34,5,0.0,False
+Kitesurfing/kiteboarding,Age,35-44,6,0.0,False
+Kitesurfing/kiteboarding,Age,45-54,7,0.0,False
+Kitesurfing/kiteboarding,Age,55-64,8,0.0,False
+Kitesurfing/kiteboarding,Age,65+,9,0.0,False
+Korfball,Total,All,0,0.0,False
+Korfball,Gender,Male,1,0.0,False
+Korfball,Gender,Female,2,0.0,False
+Korfball,Age,15-17,3,0.0,False
+Korfball,Age,18-24,4,0.0,False
+Korfball,Age,25-34,5,0.0,False
+Korfball,Age,35-44,6,0.0,False
+Korfball,Age,45-54,7,0.0,False
+Korfball,Age,55-64,8,0.0,False
+Korfball,Age,65+,9,0.0,False
+Kung fu wushu,Total,All,0,0.0,False
+Kung fu wushu,Gender,Male,1,0.0,False
+Kung fu wushu,Gender,Female,2,0.0,False
+Kung fu wushu,Age,15-17,3,0.0,False
+Kung fu wushu,Age,18-24,4,0.0,False
+Kung fu wushu,Age,25-34,5,0.0,False
+Kung fu wushu,Age,35-44,6,0.0,False
+Kung fu wushu,Age,45-54,7,0.0,False
+Kung fu wushu,Age,55-64,8,0.0,False
+Kung fu wushu,Age,65+,9,0.0,False
+Lacrosse,Total,All,0,0.0,False
+Lacrosse,Gender,Male,1,0.0,False
+Lacrosse,Gender,Female,2,0.0,False
+Lacrosse,Age,15-17,3,0.2,False
+Lacrosse,Age,18-24,4,0.1,False
+Lacrosse,Age,25-34,5,0.0,False
+Lacrosse,Age,35-44,6,0.0,False
+Lacrosse,Age,45-54,7,0.0,False
+Lacrosse,Age,55-64,8,0.0,False
+Lacrosse,Age,65+,9,0.0,False
+Lifesaving royal,Total,All,0,0.0,False
+Lifesaving royal,Gender,Male,1,0.0,False
+Lifesaving royal,Gender,Female,2,0.0,False
+Lifesaving royal,Age,15-17,3,0.0,False
+Lifesaving royal,Age,18-24,4,0.0,False
+Lifesaving royal,Age,25-34,5,0.0,False
+Lifesaving royal,Age,35-44,6,0.0,False
+Lifesaving royal,Age,45-54,7,0.0,False
+Lifesaving royal,Age,55-64,8,0.0,False
+Lifesaving royal,Age,65+,9,0.0,False
+Lifesaving surf,Total,All,0,0.1,False
+Lifesaving surf,Gender,Male,1,0.2,False
+Lifesaving surf,Gender,Female,2,0.1,False
+Lifesaving surf,Age,15-17,3,0.5,False
+Lifesaving surf,Age,18-24,4,0.1,False
+Lifesaving surf,Age,25-34,5,0.1,False
+Lifesaving surf,Age,35-44,6,0.2,False
+Lifesaving surf,Age,45-54,7,0.1,False
+Lifesaving surf,Age,55-64,8,0.2,False
+Lifesaving surf,Age,65+,9,0.0,False
+Luging,Total,All,0,0.0,False
+Luging,Gender,Male,1,0.0,False
+Luging,Gender,Female,2,0.0,False
+Luging,Age,15-17,3,0.0,False
+Luging,Age,18-24,4,0.0,False
+Luging,Age,25-34,5,0.0,False
+Luging,Age,35-44,6,0.0,False
+Luging,Age,45-54,7,0.0,False
+Luging,Age,55-64,8,0.0,False
+Luging,Age,65+,9,0.0,False
+Marching,Total,All,0,0.0,False
+Marching,Gender,Male,1,0.0,False
+Marching,Gender,Female,2,0.0,False
+Marching,Age,15-17,3,0.0,False
+Marching,Age,18-24,4,0.0,False
+Marching,Age,25-34,5,0.0,False
+Marching,Age,35-44,6,0.0,False
+Marching,Age,45-54,7,0.0,False
+Marching,Age,55-64,8,0.0,False
+Marching,Age,65+,9,0.0,False
+Martial arts,Total,All,0,0.6,False
+Martial arts,Gender,Male,1,0.6,False
+Martial arts,Gender,Female,2,0.7,False
+Martial arts,Age,15-17,3,0.6,False
+Martial arts,Age,18-24,4,0.7,False
+Martial arts,Age,25-34,5,0.5,False
+Martial arts,Age,35-44,6,0.3,False
+Martial arts,Age,45-54,7,0.5,False
+Martial arts,Age,55-64,8,0.5,False
+Martial arts,Age,65+,9,1.1,False
+Mixed martial arts,Total,All,0,0.1,False
+Mixed martial arts,Gender,Male,1,0.1,False
+Mixed martial arts,Gender,Female,2,0.1,False
+Mixed martial arts,Age,15-17,3,0.1,False
+Mixed martial arts,Age,18-24,4,0.3,False
+Mixed martial arts,Age,25-34,5,0.1,False
+Mixed martial arts,Age,35-44,6,0.1,False
+Mixed martial arts,Age,45-54,7,0.2,False
+Mixed martial arts,Age,55-64,8,0.0,False
+Mixed martial arts,Age,65+,9,0.0,False
+Modern pentathlon,Total,All,0,0.0,False
+Modern pentathlon,Gender,Male,1,0.0,False
+Modern pentathlon,Gender,Female,2,0.0,False
+Modern pentathlon,Age,15-17,3,0.0,False
+Modern pentathlon,Age,18-24,4,0.0,False
+Modern pentathlon,Age,25-34,5,0.0,False
+Modern pentathlon,Age,35-44,6,0.0,False
+Modern pentathlon,Age,45-54,7,0.0,False
+Modern pentathlon,Age,55-64,8,0.0,False
+Modern pentathlon,Age,65+,9,0.0,False
+Motor cycling,Total,All,0,0.9,False
+Motor cycling,Gender,Male,1,1.4,False
+Motor cycling,Gender,Female,2,0.5,False
+Motor cycling,Age,15-17,3,1.5,False
+Motor cycling,Age,18-24,4,1.0,False
+Motor cycling,Age,25-34,5,1.4,False
+Motor cycling,Age,35-44,6,0.9,False
+Motor cycling,Age,45-54,7,0.8,False
+Motor cycling,Age,55-64,8,1.1,False
+Motor cycling,Age,65+,9,0.4,False
+Motor sport,Total,All,0,0.3,False
+Motor sport,Gender,Male,1,0.4,False
+Motor sport,Gender,Female,2,0.1,False
+Motor sport,Age,15-17,3,0.7,False
+Motor sport,Age,18-24,4,0.4,False
+Motor sport,Age,25-34,5,0.4,False
+Motor sport,Age,35-44,6,0.2,False
+Motor sport,Age,45-54,7,0.2,False
+Motor sport,Age,55-64,8,0.2,False
+Motor sport,Age,65+,9,0.0,False
+Mountain biking,Total,All,0,0.7,False
+Mountain biking,Gender,Male,1,1.2,False
+Mountain biking,Gender,Female,2,0.3,False
+Mountain biking,Age,15-17,3,1.7,False
+Mountain biking,Age,18-24,4,0.5,False
+Mountain biking,Age,25-34,5,0.6,False
+Mountain biking,Age,35-44,6,1.0,False
+Mountain biking,Age,45-54,7,1.2,False
+Mountain biking,Age,55-64,8,0.7,False
+Mountain biking,Age,65+,9,0.2,False
+Mountain climbing,Total,All,0,0.1,False
+Mountain climbing,Gender,Male,1,0.1,False
+Mountain climbing,Gender,Female,2,0.1,False
+Mountain climbing,Age,15-17,3,0.1,False
+Mountain climbing,Age,18-24,4,0.1,False
+Mountain climbing,Age,25-34,5,0.1,False
+Mountain climbing,Age,35-44,6,0.2,False
+Mountain climbing,Age,45-54,7,0.1,False
+Mountain climbing,Age,55-64,8,0.1,False
+Mountain climbing,Age,65+,9,0.0,False
+Muay Thai,Total,All,0,0.2,False
+Muay Thai,Gender,Male,1,0.2,False
+Muay Thai,Gender,Female,2,0.1,False
+Muay Thai,Age,15-17,3,0.3,False
+Muay Thai,Age,18-24,4,0.6,False
+Muay Thai,Age,25-34,5,0.3,False
+Muay Thai,Age,35-44,6,0.1,False
+Muay Thai,Age,45-54,7,0.0,False
+Muay Thai,Age,55-64,8,0.0,False
+Muay Thai,Age,65+,9,0.0,False
+Netball,Total,All,0,2.1,False
+Netball,Gender,Male,1,0.7,False
+Netball,Gender,Female,2,3.5,False
+Netball,Age,15-17,3,8.1,False
+Netball,Age,18-24,4,5.5,False
+Netball,Age,25-34,5,3.1,False
+Netball,Age,35-44,6,2.1,False
+Netball,Age,45-54,7,1.2,False
+Netball,Age,55-64,8,0.3,False
+Netball,Age,65+,9,0.1,False
+Obstacle,Total,All,0,0.1,False
+Obstacle,Gender,Male,1,0.0,False
+Obstacle,Gender,Female,2,0.1,False
+Obstacle,Age,15-17,3,0.4,False
+Obstacle,Age,18-24,4,0.0,False
+Obstacle,Age,25-34,5,0.1,False
+Obstacle,Age,35-44,6,0.1,False
+Obstacle,Age,45-54,7,0.1,False
+Obstacle,Age,55-64,8,0.0,False
+Obstacle,Age,65+,9,0.0,False
+Orienteering,Total,All,0,0.1,False
+Orienteering,Gender,Male,1,0.1,False
+Orienteering,Gender,Female,2,0.1,False
+Orienteering,Age,15-17,3,0.4,False
+Orienteering,Age,18-24,4,0.1,False
+Orienteering,Age,25-34,5,0.0,False
+Orienteering,Age,35-44,6,0.1,False
+Orienteering,Age,45-54,7,0.1,False
+Orienteering,Age,55-64,8,0.0,False
+Orienteering,Age,65+,9,0.0,False
+Outrigger canoe,Total,All,0,0.0,False
+Outrigger canoe,Gender,Male,1,0.0,False
+Outrigger canoe,Gender,Female,2,0.0,False
+Outrigger canoe,Age,15-17,3,0.0,False
+Outrigger canoe,Age,18-24,4,0.0,False
+Outrigger canoe,Age,25-34,5,0.0,False
+Outrigger canoe,Age,35-44,6,0.0,False
+Outrigger canoe,Age,45-54,7,0.1,False
+Outrigger canoe,Age,55-64,8,0.0,False
+Outrigger canoe,Age,65+,9,0.0,False
+Oztag,Total,All,0,0.2,False
+Oztag,Gender,Male,1,0.2,False
+Oztag,Gender,Female,2,0.2,False
+Oztag,Age,15-17,3,1.0,False
+Oztag,Age,18-24,4,0.8,False
+Oztag,Age,25-34,5,0.4,False
+Oztag,Age,35-44,6,0.1,False
+Oztag,Age,45-54,7,0.0,False
+Oztag,Age,55-64,8,0.0,False
+Oztag,Age,65+,9,0.0,False
+Paddle sports,Total,All,0,0.2,False
+Paddle sports,Gender,Male,1,0.2,False
+Paddle sports,Gender,Female,2,0.2,False
+Paddle sports,Age,15-17,3,0.0,False
+Paddle sports,Age,18-24,4,0.1,False
+Paddle sports,Age,25-34,5,0.2,False
+Paddle sports,Age,35-44,6,0.2,False
+Paddle sports,Age,45-54,7,0.2,False
+Paddle sports,Age,55-64,8,0.3,False
+Paddle sports,Age,65+,9,0.2,False
+Paintball,Total,All,0,0.0,False
+Paintball,Gender,Male,1,0.0,False
+Paintball,Gender,Female,2,0.0,False
+Paintball,Age,15-17,3,0.0,False
+Paintball,Age,18-24,4,0.0,False
+Paintball,Age,25-34,5,0.0,False
+Paintball,Age,35-44,6,0.0,False
+Paintball,Age,45-54,7,0.0,False
+Paintball,Age,55-64,8,0.0,False
+Paintball,Age,65+,9,0.0,False
+Parkour,Total,All,0,0.0,False
+Parkour,Gender,Male,1,0.0,False
+Parkour,Gender,Female,2,0.0,False
+Parkour,Age,15-17,3,0.4,False
+Parkour,Age,18-24,4,0.0,False
+Parkour,Age,25-34,5,0.0,False
+Parkour,Age,35-44,6,0.0,False
+Parkour,Age,45-54,7,0.0,False
+Parkour,Age,55-64,8,0.0,False
+Parkour,Age,65+,9,0.0,False
+Petanque,Total,All,0,0.0,False
+Petanque,Gender,Male,1,0.0,False
+Petanque,Gender,Female,2,0.0,False
+Petanque,Age,15-17,3,0.0,False
+Petanque,Age,18-24,4,0.0,False
+Petanque,Age,25-34,5,0.0,False
+Petanque,Age,35-44,6,0.0,False
+Petanque,Age,45-54,7,0.0,False
+Petanque,Age,55-64,8,0.0,False
+Petanque,Age,65+,9,0.0,False
+Physical Culture,Total,All,0,0.1,False
+Physical Culture,Gender,Male,1,0.0,False
+Physical Culture,Gender,Female,2,0.1,False
+Physical Culture,Age,15-17,3,0.0,False
+Physical Culture,Age,18-24,4,0.0,False
+Physical Culture,Age,25-34,5,0.0,False
+Physical Culture,Age,35-44,6,0.1,False
+Physical Culture,Age,45-54,7,0.0,False
+Physical Culture,Age,55-64,8,0.1,False
+Physical Culture,Age,65+,9,0.2,False
+Pickleball/padel,Total,All,0,1.3,False
+Pickleball/padel,Gender,Male,1,1.3,False
+Pickleball/padel,Gender,Female,2,1.3,False
+Pickleball/padel,Age,15-17,3,0.9,False
+Pickleball/padel,Age,18-24,4,1.4,False
+Pickleball/padel,Age,25-34,5,1.5,False
+Pickleball/padel,Age,35-44,6,1.4,False
+Pickleball/padel,Age,45-54,7,1.5,False
+Pickleball/padel,Age,55-64,8,1.7,False
+Pickleball/padel,Age,65+,9,0.7,False
+Pilates,Total,All,0,7.2,False
+Pilates,Gender,Male,1,1.2,False
+Pilates,Gender,Female,2,13.0,False
+Pilates,Age,15-17,3,3.7,False
+Pilates,Age,18-24,4,8.8,False
+Pilates,Age,25-34,5,11.0,False
+Pilates,Age,35-44,6,8.7,False
+Pilates,Age,45-54,7,7.1,False
+Pilates,Age,55-64,8,6.3,False
+Pilates,Age,65+,9,3.2,False
+Polo,Total,All,0,0.0,False
+Polo,Gender,Male,1,0.0,False
+Polo,Gender,Female,2,0.0,False
+Polo,Age,15-17,3,0.0,False
+Polo,Age,18-24,4,0.0,False
+Polo,Age,25-34,5,0.0,False
+Polo,Age,35-44,6,0.0,False
+Polo,Age,45-54,7,0.0,False
+Polo,Age,55-64,8,0.0,False
+Polo,Age,65+,9,0.0,False
+Polocrosse,Total,All,0,0.0,False
+Polocrosse,Gender,Male,1,0.0,False
+Polocrosse,Gender,Female,2,0.0,False
+Polocrosse,Age,15-17,3,0.0,False
+Polocrosse,Age,18-24,4,0.0,False
+Polocrosse,Age,25-34,5,0.0,False
+Polocrosse,Age,35-44,6,0.0,False
+Polocrosse,Age,45-54,7,0.0,False
+Polocrosse,Age,55-64,8,0.0,False
+Polocrosse,Age,65+,9,0.0,False
+Pony Club,Total,All,0,0.0,False
+Pony Club,Gender,Male,1,0.0,False
+Pony Club,Gender,Female,2,0.1,False
+Pony Club,Age,15-17,3,0.2,False
+Pony Club,Age,18-24,4,0.1,False
+Pony Club,Age,25-34,5,0.1,False
+Pony Club,Age,35-44,6,0.1,False
+Pony Club,Age,45-54,7,0.0,False
+Pony Club,Age,55-64,8,0.0,False
+Pony Club,Age,65+,9,0.0,False
+Powerlifting,Total,All,0,0.0,False
+Powerlifting,Gender,Male,1,0.0,False
+Powerlifting,Gender,Female,2,0.0,False
+Powerlifting,Age,15-17,3,0.0,False
+Powerlifting,Age,18-24,4,0.1,False
+Powerlifting,Age,25-34,5,0.1,False
+Powerlifting,Age,35-44,6,0.1,False
+Powerlifting,Age,45-54,7,0.0,False
+Powerlifting,Age,55-64,8,0.0,False
+Powerlifting,Age,65+,9,0.0,False
+Ready Steady Go Kids,Total,All,0,0.0,False
+Ready Steady Go Kids,Gender,Male,1,0.0,False
+Ready Steady Go Kids,Gender,Female,2,0.0,False
+Ready Steady Go Kids,Age,15-17,3,0.0,False
+Ready Steady Go Kids,Age,18-24,4,0.0,False
+Ready Steady Go Kids,Age,25-34,5,0.0,False
+Ready Steady Go Kids,Age,35-44,6,0.0,False
+Ready Steady Go Kids,Age,45-54,7,0.0,False
+Ready Steady Go Kids,Age,55-64,8,0.0,False
+Ready Steady Go Kids,Age,65+,9,0.0,False
+Rock climbing/Abseiling/Caving,Total,All,0,0.5,False
+Rock climbing/Abseiling/Caving,Gender,Male,1,0.5,False
+Rock climbing/Abseiling/Caving,Gender,Female,2,0.4,False
+Rock climbing/Abseiling/Caving,Age,15-17,3,1.8,False
+Rock climbing/Abseiling/Caving,Age,18-24,4,1.0,False
+Rock climbing/Abseiling/Caving,Age,25-34,5,0.6,False
+Rock climbing/Abseiling/Caving,Age,35-44,6,0.5,False
+Rock climbing/Abseiling/Caving,Age,45-54,7,0.2,False
+Rock climbing/Abseiling/Caving,Age,55-64,8,0.2,False
+Rock climbing/Abseiling/Caving,Age,65+,9,0.0,False
+Rodeo,Total,All,0,0.0,False
+Rodeo,Gender,Male,1,0.0,False
+Rodeo,Gender,Female,2,0.0,False
+Rodeo,Age,15-17,3,0.0,False
+Rodeo,Age,18-24,4,0.0,False
+Rodeo,Age,25-34,5,0.0,False
+Rodeo,Age,35-44,6,0.0,False
+Rodeo,Age,45-54,7,0.0,False
+Rodeo,Age,55-64,8,0.0,False
+Rodeo,Age,65+,9,0.0,False
+Rogaining,Total,All,0,0.0,False
+Rogaining,Gender,Male,1,0.0,False
+Rogaining,Gender,Female,2,0.0,False
+Rogaining,Age,15-17,3,0.0,False
+Rogaining,Age,18-24,4,0.0,False
+Rogaining,Age,25-34,5,0.0,False
+Rogaining,Age,35-44,6,0.0,False
+Rogaining,Age,45-54,7,0.0,False
+Rogaining,Age,55-64,8,0.0,False
+Rogaining,Age,65+,9,0.0,False
+Roller Derby,Total,All,0,0.0,False
+Roller Derby,Gender,Male,1,0.0,False
+Roller Derby,Gender,Female,2,0.0,False
+Roller Derby,Age,15-17,3,0.0,False
+Roller Derby,Age,18-24,4,0.0,False
+Roller Derby,Age,25-34,5,0.0,False
+Roller Derby,Age,35-44,6,0.0,False
+Roller Derby,Age,45-54,7,0.0,False
+Roller Derby,Age,55-64,8,0.0,False
+Roller Derby,Age,65+,9,0.0,False
+Rope skipping,Total,All,0,0.2,False
+Rope skipping,Gender,Male,1,0.2,False
+Rope skipping,Gender,Female,2,0.3,False
+Rope skipping,Age,15-17,3,0.4,False
+Rope skipping,Age,18-24,4,0.4,False
+Rope skipping,Age,25-34,5,0.4,False
+Rope skipping,Age,35-44,6,0.3,False
+Rope skipping,Age,45-54,7,0.2,False
+Rope skipping,Age,55-64,8,0.2,False
+Rope skipping,Age,65+,9,0.0,False
+Rowing,Total,All,0,0.6,False
+Rowing,Gender,Male,1,0.7,False
+Rowing,Gender,Female,2,0.5,False
+Rowing,Age,15-17,3,1.0,False
+Rowing,Age,18-24,4,0.4,False
+Rowing,Age,25-34,5,0.5,False
+Rowing,Age,35-44,6,0.5,False
+Rowing,Age,45-54,7,0.7,False
+Rowing,Age,55-64,8,0.8,False
+Rowing,Age,65+,9,0.5,False
+Rugby league,Total,All,0,0.8,False
+Rugby league,Gender,Male,1,1.2,False
+Rugby league,Gender,Female,2,0.3,False
+Rugby league,Age,15-17,3,3.2,False
+Rugby league,Age,18-24,4,1.7,False
+Rugby league,Age,25-34,5,1.4,False
+Rugby league,Age,35-44,6,0.7,False
+Rugby league,Age,45-54,7,0.4,False
+Rugby league,Age,55-64,8,0.1,False
+Rugby league,Age,65+,9,0.0,False
+Rugby union,Total,All,0,0.4,False
+Rugby union,Gender,Male,1,0.6,False
+Rugby union,Gender,Female,2,0.2,False
+Rugby union,Age,15-17,3,1.4,False
+Rugby union,Age,18-24,4,0.9,False
+Rugby union,Age,25-34,5,0.6,False
+Rugby union,Age,35-44,6,0.3,False
+Rugby union,Age,45-54,7,0.2,False
+Rugby union,Age,55-64,8,0.1,False
+Rugby union,Age,65+,9,0.0,False
+Running/jogging,Total,All,0,16.5,True
+Running/jogging,Gender,Male,1,19.0,True
+Running/jogging,Gender,Female,2,14.2,True
+Running/jogging,Age,15-17,3,26.6,True
+Running/jogging,Age,18-24,4,26.7,True
+Running/jogging,Age,25-34,5,27.7,True
+Running/jogging,Age,35-44,6,20.9,True
+Running/jogging,Age,45-54,7,15.8,True
+Running/jogging,Age,55-64,8,8.5,True
+Running/jogging,Age,65+,9,1.8,True
+Sailing,Total,All,0,0.3,False
+Sailing,Gender,Male,1,0.5,False
+Sailing,Gender,Female,2,0.2,False
+Sailing,Age,15-17,3,0.3,False
+Sailing,Age,18-24,4,0.1,False
+Sailing,Age,25-34,5,0.2,False
+Sailing,Age,35-44,6,0.2,False
+Sailing,Age,45-54,7,0.4,False
+Sailing,Age,55-64,8,0.7,False
+Sailing,Age,65+,9,0.4,False
+Scootering,Total,All,0,0.1,False
+Scootering,Gender,Male,1,0.1,False
+Scootering,Gender,Female,2,0.1,False
+Scootering,Age,15-17,3,0.0,False
+Scootering,Age,18-24,4,0.0,False
+Scootering,Age,25-34,5,0.1,False
+Scootering,Age,35-44,6,0.3,False
+Scootering,Age,45-54,7,0.1,False
+Scootering,Age,55-64,8,0.0,False
+Scootering,Age,65+,9,0.0,False
+Scouts,Total,All,0,0.0,False
+Scouts,Gender,Male,1,0.0,False
+Scouts,Gender,Female,2,0.0,False
+Scouts,Age,15-17,3,0.3,False
+Scouts,Age,18-24,4,0.1,False
+Scouts,Age,25-34,5,0.0,False
+Scouts,Age,35-44,6,0.0,False
+Scouts,Age,45-54,7,0.0,False
+Scouts,Age,55-64,8,0.0,False
+Scouts,Age,65+,9,0.0,False
+Sepak takraw,Total,All,0,0.0,False
+Sepak takraw,Gender,Male,1,0.0,False
+Sepak takraw,Gender,Female,2,0.0,False
+Sepak takraw,Age,15-17,3,0.0,False
+Sepak takraw,Age,18-24,4,0.0,False
+Sepak takraw,Age,25-34,5,0.0,False
+Sepak takraw,Age,35-44,6,0.0,False
+Sepak takraw,Age,45-54,7,0.0,False
+Sepak takraw,Age,55-64,8,0.0,False
+Sepak takraw,Age,65+,9,0.0,False
+Shooting/field,Total,All,0,0.2,False
+Shooting/field,Gender,Male,1,0.4,False
+Shooting/field,Gender,Female,2,0.0,False
+Shooting/field,Age,15-17,3,0.3,False
+Shooting/field,Age,18-24,4,0.1,False
+Shooting/field,Age,25-34,5,0.3,False
+Shooting/field,Age,35-44,6,0.2,False
+Shooting/field,Age,45-54,7,0.2,False
+Shooting/field,Age,55-64,8,0.2,False
+Shooting/field,Age,65+,9,0.1,False
+Shooting/range,Total,All,0,0.1,False
+Shooting/range,Gender,Male,1,0.2,False
+Shooting/range,Gender,Female,2,0.0,False
+Shooting/range,Age,15-17,3,0.0,False
+Shooting/range,Age,18-24,4,0.1,False
+Shooting/range,Age,25-34,5,0.2,False
+Shooting/range,Age,35-44,6,0.2,False
+Shooting/range,Age,45-54,7,0.1,False
+Shooting/range,Age,55-64,8,0.1,False
+Shooting/range,Age,65+,9,0.1,False
+Skate,Total,All,0,0.4,False
+Skate,Gender,Male,1,0.4,False
+Skate,Gender,Female,2,0.4,False
+Skate,Age,15-17,3,1.2,False
+Skate,Age,18-24,4,0.7,False
+Skate,Age,25-34,5,0.6,False
+Skate,Age,35-44,6,0.5,False
+Skate,Age,45-54,7,0.4,False
+Skate,Age,55-64,8,0.1,False
+Skate,Age,65+,9,0.0,False
+Skeleton,Total,All,0,0.0,False
+Skeleton,Gender,Male,1,0.0,False
+Skeleton,Gender,Female,2,0.0,False
+Skeleton,Age,15-17,3,0.0,False
+Skeleton,Age,18-24,4,0.0,False
+Skeleton,Age,25-34,5,0.0,False
+Skeleton,Age,35-44,6,0.0,False
+Skeleton,Age,45-54,7,0.0,False
+Skeleton,Age,55-64,8,0.0,False
+Skeleton,Age,65+,9,0.0,False
+Ski & snowboard,Total,All,0,0.8,False
+Ski & snowboard,Gender,Male,1,1.0,False
+Ski & snowboard,Gender,Female,2,0.7,False
+Ski & snowboard,Age,15-17,3,0.3,False
+Ski & snowboard,Age,18-24,4,0.7,False
+Ski & snowboard,Age,25-34,5,0.9,False
+Ski & snowboard,Age,35-44,6,0.8,False
+Ski & snowboard,Age,45-54,7,1.0,False
+Ski & snowboard,Age,55-64,8,1.4,False
+Ski & snowboard,Age,65+,9,0.4,False
+Skirmish,Total,All,0,0.0,False
+Skirmish,Gender,Male,1,0.0,False
+Skirmish,Gender,Female,2,0.0,False
+Skirmish,Age,15-17,3,0.0,False
+Skirmish,Age,18-24,4,0.0,False
+Skirmish,Age,25-34,5,0.0,False
+Skirmish,Age,35-44,6,0.0,False
+Skirmish,Age,45-54,7,0.0,False
+Skirmish,Age,55-64,8,0.0,False
+Skirmish,Age,65+,9,0.0,False
+Softball,Total,All,0,0.1,False
+Softball,Gender,Male,1,0.1,False
+Softball,Gender,Female,2,0.2,False
+Softball,Age,15-17,3,0.3,False
+Softball,Age,18-24,4,0.2,False
+Softball,Age,25-34,5,0.2,False
+Softball,Age,35-44,6,0.2,False
+Softball,Age,45-54,7,0.1,False
+Softball,Age,55-64,8,0.2,False
+Softball,Age,65+,9,0.0,False
+Sport climbing,Total,All,0,0.5,False
+Sport climbing,Gender,Male,1,0.7,False
+Sport climbing,Gender,Female,2,0.4,False
+Sport climbing,Age,15-17,3,1.4,False
+Sport climbing,Age,18-24,4,1.3,False
+Sport climbing,Age,25-34,5,1.3,False
+Sport climbing,Age,35-44,6,0.5,False
+Sport climbing,Age,45-54,7,0.0,False
+Sport climbing,Age,55-64,8,0.1,False
+Sport climbing,Age,65+,9,0.0,False
+Squash,Total,All,0,0.4,False
+Squash,Gender,Male,1,0.6,False
+Squash,Gender,Female,2,0.2,False
+Squash,Age,15-17,3,0.4,False
+Squash,Age,18-24,4,0.3,False
+Squash,Age,25-34,5,0.6,False
+Squash,Age,35-44,6,0.5,False
+Squash,Age,45-54,7,0.4,False
+Squash,Age,55-64,8,0.4,False
+Squash,Age,65+,9,0.2,False
+Surfing,Total,All,0,1.4,False
+Surfing,Gender,Male,1,1.7,False
+Surfing,Gender,Female,2,1.1,False
+Surfing,Age,15-17,3,2.2,False
+Surfing,Age,18-24,4,1.3,False
+Surfing,Age,25-34,5,1.6,False
+Surfing,Age,35-44,6,1.8,False
+Surfing,Age,45-54,7,1.8,False
+Surfing,Age,55-64,8,1.4,False
+Surfing,Age,65+,9,0.5,False
+Swimming,Total,All,0,15.4,False
+Swimming,Gender,Male,1,14.5,False
+Swimming,Gender,Female,2,16.3,False
+Swimming,Age,15-17,3,17.6,False
+Swimming,Age,18-24,4,16.3,False
+Swimming,Age,25-34,5,16.6,False
+Swimming,Age,35-44,6,18.3,False
+Swimming,Age,45-54,7,16.7,False
+Swimming,Age,55-64,8,16.0,False
+Swimming,Age,65+,9,9.7,False
+Sword fighting,Total,All,0,0.0,False
+Sword fighting,Gender,Male,1,0.0,False
+Sword fighting,Gender,Female,2,0.0,False
+Sword fighting,Age,15-17,3,0.0,False
+Sword fighting,Age,18-24,4,0.1,False
+Sword fighting,Age,25-34,5,0.1,False
+Sword fighting,Age,35-44,6,0.0,False
+Sword fighting,Age,45-54,7,0.0,False
+Sword fighting,Age,55-64,8,0.0,False
+Sword fighting,Age,65+,9,0.0,False
+Synchronised swimming,Total,All,0,0.1,False
+Synchronised swimming,Gender,Male,1,0.1,False
+Synchronised swimming,Gender,Female,2,0.0,False
+Synchronised swimming,Age,15-17,3,0.0,False
+Synchronised swimming,Age,18-24,4,0.1,False
+Synchronised swimming,Age,25-34,5,0.1,False
+Synchronised swimming,Age,35-44,6,0.1,False
+Synchronised swimming,Age,45-54,7,0.1,False
+Synchronised swimming,Age,55-64,8,0.0,False
+Synchronised swimming,Age,65+,9,0.0,False
+Table tennis,Total,All,0,1.8,False
+Table tennis,Gender,Male,1,2.5,False
+Table tennis,Gender,Female,2,1.1,False
+Table tennis,Age,15-17,3,6.5,False
+Table tennis,Age,18-24,4,3.3,False
+Table tennis,Age,25-34,5,2.3,False
+Table tennis,Age,35-44,6,1.6,False
+Table tennis,Age,45-54,7,1.4,False
+Table tennis,Age,55-64,8,0.9,False
+Table tennis,Age,65+,9,0.5,False
+Taekwondo/Taekwon-do,Total,All,0,0.1,False
+Taekwondo/Taekwon-do,Gender,Male,1,0.1,False
+Taekwondo/Taekwon-do,Gender,Female,2,0.1,False
+Taekwondo/Taekwon-do,Age,15-17,3,0.9,False
+Taekwondo/Taekwon-do,Age,18-24,4,0.2,False
+Taekwondo/Taekwon-do,Age,25-34,5,0.1,False
+Taekwondo/Taekwon-do,Age,35-44,6,0.1,False
+Taekwondo/Taekwon-do,Age,45-54,7,0.1,False
+Taekwondo/Taekwon-do,Age,55-64,8,0.1,False
+Taekwondo/Taekwon-do,Age,65+,9,0.0,False
+Tee ball,Total,All,0,0.0,False
+Tee ball,Gender,Male,1,0.0,False
+Tee ball,Gender,Female,2,0.0,False
+Tee ball,Age,15-17,3,0.0,False
+Tee ball,Age,18-24,4,0.1,False
+Tee ball,Age,25-34,5,0.0,False
+Tee ball,Age,35-44,6,0.0,False
+Tee ball,Age,45-54,7,0.0,False
+Tee ball,Age,55-64,8,0.0,False
+Tee ball,Age,65+,9,0.0,False
+Tennis,Total,All,0,4.9,False
+Tennis,Gender,Male,1,5.8,False
+Tennis,Gender,Female,2,4.1,False
+Tennis,Age,15-17,3,9.5,False
+Tennis,Age,18-24,4,7.5,False
+Tennis,Age,25-34,5,6.5,False
+Tennis,Age,35-44,6,5.3,False
+Tennis,Age,45-54,7,5.3,False
+Tennis,Age,55-64,8,3.3,False
+Tennis,Age,65+,9,1.9,False
+Tenpin bowling,Total,All,0,0.6,False
+Tenpin bowling,Gender,Male,1,0.7,False
+Tenpin bowling,Gender,Female,2,0.6,False
+Tenpin bowling,Age,15-17,3,1.1,False
+Tenpin bowling,Age,18-24,4,0.8,False
+Tenpin bowling,Age,25-34,5,0.5,False
+Tenpin bowling,Age,35-44,6,0.7,False
+Tenpin bowling,Age,45-54,7,0.6,False
+Tenpin bowling,Age,55-64,8,0.7,False
+Tenpin bowling,Age,65+,9,0.4,False
+Tobogganing,Total,All,0,0.0,False
+Tobogganing,Gender,Male,1,0.0,False
+Tobogganing,Gender,Female,2,0.0,False
+Tobogganing,Age,15-17,3,0.0,False
+Tobogganing,Age,18-24,4,0.0,False
+Tobogganing,Age,25-34,5,0.0,False
+Tobogganing,Age,35-44,6,0.0,False
+Tobogganing,Age,45-54,7,0.0,False
+Tobogganing,Age,55-64,8,0.0,False
+Tobogganing,Age,65+,9,0.0,False
+Touch football,Total,All,0,0.7,False
+Touch football,Gender,Male,1,0.9,False
+Touch football,Gender,Female,2,0.5,False
+Touch football,Age,15-17,3,2.3,False
+Touch football,Age,18-24,4,1.5,False
+Touch football,Age,25-34,5,1.2,False
+Touch football,Age,35-44,6,0.6,False
+Touch football,Age,45-54,7,0.5,False
+Touch football,Age,55-64,8,0.3,False
+Touch football,Age,65+,9,0.1,False
+Triathlon,Total,All,0,0.1,False
+Triathlon,Gender,Male,1,0.2,False
+Triathlon,Gender,Female,2,0.1,False
+Triathlon,Age,15-17,3,0.3,False
+Triathlon,Age,18-24,4,0.2,False
+Triathlon,Age,25-34,5,0.2,False
+Triathlon,Age,35-44,6,0.2,False
+Triathlon,Age,45-54,7,0.2,False
+Triathlon,Age,55-64,8,0.0,False
+Triathlon,Age,65+,9,0.0,False
+Underwater sports,Total,All,0,0.8,False
+Underwater sports,Gender,Male,1,0.8,False
+Underwater sports,Gender,Female,2,0.8,False
+Underwater sports,Age,15-17,3,0.7,False
+Underwater sports,Age,18-24,4,0.7,False
+Underwater sports,Age,25-34,5,1.0,False
+Underwater sports,Age,35-44,6,1.1,False
+Underwater sports,Age,45-54,7,0.8,False
+Underwater sports,Age,55-64,8,1.1,False
+Underwater sports,Age,65+,9,0.4,False
+Virtual based physical activity,Total,All,0,0.9,False
+Virtual based physical activity,Gender,Male,1,1.0,False
+Virtual based physical activity,Gender,Female,2,0.9,False
+Virtual based physical activity,Age,15-17,3,3.7,False
+Virtual based physical activity,Age,18-24,4,1.7,False
+Virtual based physical activity,Age,25-34,5,1.4,False
+Virtual based physical activity,Age,35-44,6,0.8,False
+Virtual based physical activity,Age,45-54,7,0.7,False
+Virtual based physical activity,Age,55-64,8,0.3,False
+Virtual based physical activity,Age,65+,9,0.3,False
+Volleyball (indoor and outdoor),Total,All,0,1.3,False
+Volleyball (indoor and outdoor),Gender,Male,1,1.6,False
+Volleyball (indoor and outdoor),Gender,Female,2,1.1,False
+Volleyball (indoor and outdoor),Age,15-17,3,10.1,False
+Volleyball (indoor and outdoor),Age,18-24,4,3.4,False
+Volleyball (indoor and outdoor),Age,25-34,5,1.6,False
+Volleyball (indoor and outdoor),Age,35-44,6,0.7,False
+Volleyball (indoor and outdoor),Age,45-54,7,0.4,False
+Volleyball (indoor and outdoor),Age,55-64,8,0.1,False
+Volleyball (indoor and outdoor),Age,65+,9,0.1,False
+Walking (Recreational),Total,All,0,50.2,False
+Walking (Recreational),Gender,Male,1,42.5,False
+Walking (Recreational),Gender,Female,2,57.8,False
+Walking (Recreational),Age,15-17,3,30.3,False
+Walking (Recreational),Age,18-24,4,34.2,False
+Walking (Recreational),Age,25-34,5,41.9,False
+Walking (Recreational),Age,35-44,6,47.5,False
+Walking (Recreational),Age,45-54,7,58.7,False
+Walking (Recreational),Age,55-64,8,66.0,False
+Walking (Recreational),Age,65+,9,55.8,False
+Water polo,Total,All,0,0.1,False
+Water polo,Gender,Male,1,0.1,False
+Water polo,Gender,Female,2,0.1,False
+Water polo,Age,15-17,3,0.5,False
+Water polo,Age,18-24,4,0.2,False
+Water polo,Age,25-34,5,0.1,False
+Water polo,Age,35-44,6,0.0,False
+Water polo,Age,45-54,7,0.1,False
+Water polo,Age,55-64,8,0.0,False
+Water polo,Age,65+,9,0.0,False
+Waterskiing/Wakeboarding,Total,All,0,0.2,False
+Waterskiing/Wakeboarding,Gender,Male,1,0.2,False
+Waterskiing/Wakeboarding,Gender,Female,2,0.1,False
+Waterskiing/Wakeboarding,Age,15-17,3,0.0,False
+Waterskiing/Wakeboarding,Age,18-24,4,0.2,False
+Waterskiing/Wakeboarding,Age,25-34,5,0.2,False
+Waterskiing/Wakeboarding,Age,35-44,6,0.1,False
+Waterskiing/Wakeboarding,Age,45-54,7,0.2,False
+Waterskiing/Wakeboarding,Age,55-64,8,0.2,False
+Waterskiing/Wakeboarding,Age,65+,9,0.0,False
+Weight lifting,Total,All,0,1.0,False
+Weight lifting,Gender,Male,1,1.1,False
+Weight lifting,Gender,Female,2,0.9,False
+Weight lifting,Age,15-17,3,0.8,False
+Weight lifting,Age,18-24,4,1.6,False
+Weight lifting,Age,25-34,5,1.6,False
+Weight lifting,Age,35-44,6,1.1,False
+Weight lifting,Age,45-54,7,0.9,False
+Weight lifting,Age,55-64,8,0.7,False
+Weight lifting,Age,65+,9,0.4,False
+Wheelchair rugby,Total,All,0,0.0,False
+Wheelchair rugby,Gender,Male,1,0.0,False
+Wheelchair rugby,Gender,Female,2,0.0,False
+Wheelchair rugby,Age,15-17,3,0.0,False
+Wheelchair rugby,Age,18-24,4,0.0,False
+Wheelchair rugby,Age,25-34,5,0.0,False
+Wheelchair rugby,Age,35-44,6,0.0,False
+Wheelchair rugby,Age,45-54,7,0.0,False
+Wheelchair rugby,Age,55-64,8,0.0,False
+Wheelchair rugby,Age,65+,9,0.0,False
+Wood chopping,Total,All,0,0.0,False
+Wood chopping,Gender,Male,1,0.1,False
+Wood chopping,Gender,Female,2,0.0,False
+Wood chopping,Age,15-17,3,0.0,False
+Wood chopping,Age,18-24,4,0.0,False
+Wood chopping,Age,25-34,5,0.0,False
+Wood chopping,Age,35-44,6,0.0,False
+Wood chopping,Age,45-54,7,0.1,False
+Wood chopping,Age,55-64,8,0.1,False
+Wood chopping,Age,65+,9,0.0,False
+Wrestling,Total,All,0,0.0,False
+Wrestling,Gender,Male,1,0.1,False
+Wrestling,Gender,Female,2,0.0,False
+Wrestling,Age,15-17,3,0.0,False
+Wrestling,Age,18-24,4,0.1,False
+Wrestling,Age,25-34,5,0.1,False
+Wrestling,Age,35-44,6,0.0,False
+Wrestling,Age,45-54,7,0.0,False
+Wrestling,Age,55-64,8,0.0,False
+Wrestling,Age,65+,9,0.0,False
+Yoga,Total,All,0,5.1,False
+Yoga,Gender,Male,1,1.6,False
+Yoga,Gender,Female,2,8.5,False
+Yoga,Age,15-17,3,2.6,False
+Yoga,Age,18-24,4,3.6,False
+Yoga,Age,25-34,5,6.4,False
+Yoga,Age,35-44,6,6.3,False
+Yoga,Age,45-54,7,6.1,False
+Yoga,Age,55-64,8,5.6,False
+Yoga,Age,65+,9,3.2,False

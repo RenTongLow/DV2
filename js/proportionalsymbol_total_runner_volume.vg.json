@@ -1,0 +1,252 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 320,
+  "projection": {
+    "type": "mercator",
+    "scale": 400,
+    "center": [134.0, -27.0]
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/australia_states.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_10m_admin_1_states_provinces"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e5e7eb",
+        "stroke": "#ffffff",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 149.1,
+            "lat": -35.4,
+            "lon2": 152.2,
+            "lat2": -36.4
+          },
+          {
+            "lon": 148.0,
+            "lat": -42.0,
+            "lon2": 150.0,
+            "lat2": -43.0
+          },
+          {
+            "lon": 143.8,
+            "lat": -37.9,
+            "lon2": 140.8,
+            "lat2": -40.0
+          },
+          {
+            "lon": 148.6,
+            "lat": -32.6,
+            "lon2": 151.6,
+            "lat2": -32.4
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#475569",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon2"
+        },
+        "latitude2": {
+          "field": "lat2"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.7,
+        "color": "#31a354"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Total Runners",
+          "scale": {
+            "type": "linear",
+            "domain": [0, 1600000],
+            "range": [40, 1400]
+          },
+          "legend": {
+            "orient": "none",
+            "legendX": 410,
+            "legendY": 70,
+            "values": [100000, 500000, 1000000, 1500000],
+            "labelExpr": "datum.value >= 1000000 ? (datum.value / 1000000) + 'M' : (datum.value / 1000) + 'K'",
+            "symbolFillColor": "#31a354",
+            "symbolOpacity": 0.7
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State/Territory"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Estimated Runners",
+            "format": ","
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'runner_count'"
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'runner_count'"
+        },
+        {
+          "calculate": "datum.state === 'New South Wales' ? 155.0 : datum.state === 'Victoria' ? 139.5 : datum.state === 'Tasmania' ? 153.2 : datum.state === 'Australian Capital Territory' ? 153.4 : datum.longitude",
+          "as": "label_lon"
+        },
+        {
+          "calculate": "datum.state === 'New South Wales' ? -32.4 : datum.state === 'Victoria' ? -40.6 : datum.state === 'Tasmania' ? -43.5 : datum.state === 'Australian Capital Territory' ? -36.6 : datum.latitude - ((sqrt((40 + 1360 * datum.value / 1600000) / PI) + 21) / 8)",
+          "as": "label_lat"
+        },
+        {
+          "calculate": "datum.state === 'Australian Capital Territory' ? 'ACT' : datum.state",
+          "as": "name_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "dy": -8
+      },
+      "encoding": {
+        "longitude": {
+          "field": "label_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "label_lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name_label",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "#111827"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "data/running_metrics_long.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "value": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.metric == 'runner_count'"
+        },
+        {
+          "calculate": "datum.state === 'New South Wales' ? 155.0 : datum.state === 'Victoria' ? 139.5 : datum.state === 'Tasmania' ? 153.2 : datum.state === 'Australian Capital Territory' ? 153.4 : datum.longitude",
+          "as": "label_lon"
+        },
+        {
+          "calculate": "datum.state === 'New South Wales' ? -32.4 : datum.state === 'Victoria' ? -40.6 : datum.state === 'Tasmania' ? -43.5 : datum.state === 'Australian Capital Territory' ? -36.6 : datum.latitude - ((sqrt((40 + 1360 * datum.value / 1600000) / PI) + 21) / 8)",
+          "as": "label_lat"
+        },
+        {
+          "calculate": "format(datum.value, ',')",
+          "as": "value_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "dy": 5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "label_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "label_lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "value_label",
+          "type": "nominal"
+        },
+        "color": {
+          "value": "#111827"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

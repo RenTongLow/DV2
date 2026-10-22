@@ -1,0 +1,164 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 320,
+  "height": 289,
+  "title": {
+    "text": ["\u2605 = most common frequency in each age group"],
+    "orient": "bottom",
+    "anchor": "start",
+    "fontSize": 13,
+    "fontWeight": "normal",
+    "color": "#64748b",
+    "offset": 14
+  },
+  "data": {
+    "url": "data/running_metrics_long.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "value": "number"
+      }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.metric == 'participant_percentage'"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "exercise_frequency",
+          "type": "nominal",
+          "title": "Running Frequency",
+          "sort": ["1/week", "2/week", "3/week", "4/week", "5+/week"],
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "age_group",
+          "type": "nominal",
+          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"],
+          "title": "Age Group"
+        },
+        "color": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Share (%)",
+          "scale": {
+            "scheme": "orangered"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "age_group",
+            "type": "nominal",
+            "title": "Age Group"
+          },
+          {
+            "field": "exercise_frequency",
+            "type": "nominal",
+            "title": "Frequency"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Participant Share (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600
+      },
+      "transform": [
+        {
+          "calculate": "format(datum.value, '.1f') + '%'",
+          "as": "lab"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "exercise_frequency",
+          "type": "nominal",
+          "sort": ["1/week", "2/week", "3/week", "4/week", "5+/week"]
+        },
+        "y": {
+          "field": "age_group",
+          "type": "nominal",
+          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"]
+        },
+        "text": {
+          "field": "lab",
+          "type": "nominal"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.value > 24",
+            "value": "white"
+          },
+          "value": "#1f2937"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "dy": -13
+      },
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "max",
+              "field": "value",
+              "as": "mx"
+            }
+          ],
+          "groupby": ["age_group"]
+        },
+        {
+          "filter": "datum.value == datum.mx"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "exercise_frequency",
+          "type": "nominal",
+          "sort": ["1/week", "2/week", "3/week", "4/week", "5+/week"]
+        },
+        "y": {
+          "field": "age_group",
+          "type": "nominal",
+          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"]
+        },
+        "text": {
+          "value": "\u2605"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.value > 24",
+            "value": "white"
+          },
+          "value": "#1f2937"
+        }
+      }
+    }
+  ]
+}

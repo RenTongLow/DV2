@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 260,
+  "title": {
+    "text": "Completion-Time Distribution by Distance",
+    "subtitle": "Box = middle 50% of finishers \u00b7 whiskers = 1.5\u00d7 IQR \u00b7 dots = outliers",
+    "subtitleFontSize": 11,
+    "subtitleColor": "#64748b",
+    "subtitlePadding": 6
+  },
+  "data": {
+    "url": "data/completion_time.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.finish_seconds / 60",
+      "as": "finish_time_minutes"
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "boxplot",
+        "extent": 1.5,
+        "size": 40
+      },
+      "encoding": {
+        "x": {
+          "field": "event_distance",
+          "type": "nominal",
+          "sort": ["5K", "10K", "Half", "Full"],
+          "title": "Running Distance",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "finish_time_minutes",
+          "type": "quantitative",
+          "title": "Finish Time (Minutes)",
+          "axis": {
+            "grid": true
+          }
+        },
+        "color": {
+          "field": "event_distance",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": ["5K", "10K", "Half", "Full"],
+            "range": ["#56B4E9", "#E69F00", "#CC79A7", "#332288"]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "type": "nominal",
+            "title": "Athlete"
+          },
+          {
+            "field": "event_distance",
+            "type": "nominal",
+            "title": "Distance"
+          },
+          {
+            "field": "finish_time",
+            "type": "nominal",
+            "title": "Finish Time"
+          },
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 26
+      },
+      "encoding": {
+        "x": {
+          "field": "event_distance",
+          "type": "nominal",
+          "sort": ["5K", "10K", "Half", "Full"]
+        },
+        "y": {
+          "field": "med",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "lab",
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "op": "median",
+              "field": "finish_time_minutes",
+              "as": "med"
+            }
+          ],
+          "groupby": ["event_distance"]
+        },
+        {
+          "calculate": "'Median ' + (datum.med < 60 ? round(datum.med) + ' min' : floor(datum.med / 60) + 'h ' + round(datum.med % 60) + 'm')",
+          "as": "lab"
+        }
+      ]
+    }
+  ]
+}

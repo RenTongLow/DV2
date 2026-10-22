@@ -1,0 +1,181 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 420,
+  "height": 244,
+  "padding": {
+    "left": 5,
+    "top": 5,
+    "right": 5,
+    "bottom": 5
+  },
+  "data": {
+    "url": "data/sport_participation_by_group.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "participation_pct": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.group_type == 'Total'"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "participation_pct",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.rank <= 8"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "participation_pct",
+            "op": "max",
+            "order": "descending"
+          },
+          "title": "Activity",
+          "axis": {
+            "labelAngle": -35
+          }
+        },
+        "y": {
+          "field": "participation_pct",
+          "type": "quantitative",
+          "title": "Participation Rate (%)",
+          "scale": {
+            "domain": [0, 60]
+          }
+        },
+        "color": {
+          "field": "activity",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "range": [
+              "#0072B2",
+              "#E69F00",
+              "#009E73",
+              "#CC79A7",
+              "#56B4E9",
+              "#7B3294",
+              "#8C510A",
+              "#C9B800"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "participation_pct",
+            "type": "quantitative",
+            "title": "Participation Rate (%)"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": 600,
+        "color": "#334155",
+        "lineBreak": "\n",
+        "baseline": "bottom",
+        "dy": -4
+      },
+      "encoding": {
+        "x": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "participation_pct",
+            "op": "max",
+            "order": "descending"
+          }
+        },
+        "y": {
+          "field": "participation_pct",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 60]
+          }
+        },
+        "text": {
+          "field": "lab",
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "format(datum.participation_pct, '.1f') + '%'",
+          "as": "lab"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "color": "#7B3294",
+        "lineBreak": "\n",
+        "baseline": "bottom",
+        "dy": -30,
+        "fontStyle": "normal"
+      },
+      "encoding": {
+        "x": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "participation_pct",
+            "op": "max",
+            "order": "descending"
+          }
+        },
+        "y": {
+          "field": "participation_pct",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 60]
+          }
+        },
+        "text": {
+          "field": "lab",
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.activity == 'Running/jogging'"
+        },
+        {
+          "calculate": "'Running\\nranks #' + datum.rank",
+          "as": "lab"
+        }
+      ]
+    }
+  ]
+}
