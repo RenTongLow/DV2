@@ -2,13 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 450,
   "height": 260,
-  "title": {
-    "text": "Completion-Time Distribution by Distance",
-    "subtitle": "Box = middle 50% of finishers \u00b7 whiskers = 1.5\u00d7 IQR \u00b7 dots = outliers",
-    "subtitleFontSize": 11,
-    "subtitleColor": "#64748b",
-    "subtitlePadding": 6
-  },
+
   "data": {
     "url": "data/completion_time.csv"
   },

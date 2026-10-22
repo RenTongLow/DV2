@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 430,
   "height": 260,
-  "title": "Participation by Running Distance",
   "data": {
     "url": "data/running_metrics_long.csv",
     "format": {

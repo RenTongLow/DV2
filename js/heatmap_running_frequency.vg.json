@@ -3,7 +3,7 @@
   "width": 320,
   "height": 289,
   "title": {
-    "text": ["\u2605 = most common frequency in each age group"],
+    "text": ["★ = most common frequency in each age group"],
     "orient": "bottom",
     "anchor": "start",
     "fontSize": 13,
@@ -50,7 +50,7 @@
         "y": {
           "field": "age_group",
           "type": "nominal",
-          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"],
+          "sort": ["55+", "45-54", "35-44", "25-34", "18-24"],
           "title": "Age Group"
         },
         "color": {
@@ -101,7 +101,7 @@
         "y": {
           "field": "age_group",
           "type": "nominal",
-          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"]
+          "sort": ["55+", "45-54", "35-44", "25-34", "18-24"]
         },
         "text": {
           "field": "lab",
@@ -146,10 +146,10 @@
         "y": {
           "field": "age_group",
           "type": "nominal",
-          "sort": ["18-24", "25-34", "35-44", "45-54", "55+"]
+          "sort": ["55+", "45-54", "35-44", "25-34", "18-24"]
         },
         "text": {
-          "value": "\u2605"
+          "value": "★"
         },
         "color": {
           "condition": {

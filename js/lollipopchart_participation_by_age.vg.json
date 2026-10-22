@@ -16,7 +16,7 @@
     "y": {
       "field": "age_group",
       "type": "nominal",
-      "sort": ["18-24", "25-34", "35-44", "45-54", "55+"],
+      "sort": ["55+", "45-54", "35-44", "25-34", "18-24"],
       "title": "Age Group",
       "axis": {
         "grid": true
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "calculate": "format(datum.value, '.1f') + '%' + (datum.value == datum.mx ? '  \u25c4 Peak' : datum.value == datum.mn ? '  \u25c4 Lowest' : '')",
+          "calculate": "format(datum.value, '.1f') + '%' + (datum.value == datum.mx ? '  ◄ Peak' : datum.value == datum.mn ? '  ◄ Lowest' : '')",
           "as": "lab"
         }
       ],

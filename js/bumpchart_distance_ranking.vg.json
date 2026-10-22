@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 380,
   "height": 260,
-  "title": "Distance Popularity Ranking Over Time",
   "data": {
     "url": "data/running_metrics_long.csv",
     "format": {
